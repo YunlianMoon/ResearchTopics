@@ -19,7 +19,7 @@
 
 #### <a name="image">image</a>
 
-[Zhu, Yuke, et al. "Target-driven visual navigation in indoor scenes using deep reinforcement learning." 2017 IEEE international conference on robotics and automation (ICRA). IEEE, 2017.](https://arxiv.org/pdf/1609.05143.pdf,)
+Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017\] [paper](https://arxiv.org/pdf/1609.05143.pdf,)
 
 
 
