@@ -1,5 +1,9 @@
 # Visual Navigation using DRL
 
+### Table of Contents
+- <a href="#survey">Survey</a>
+- <a href="#paper">Paper</a>
+
 Survey
 
 [Dhiman, Vikas, et al. "A critical investigation of deep reinforcement learning for navigation." arXiv preprint arXiv:1802.02274 (2018).](https://arxiv.org/pdf/1802.02274.pdf)
