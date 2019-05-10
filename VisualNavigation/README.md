@@ -19,7 +19,7 @@
 
 #### <a name="image">image</a>
 
-Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017\] [paper](https://arxiv.org/pdf/1609.05143.pdf,)
+Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\]
 
 
 
