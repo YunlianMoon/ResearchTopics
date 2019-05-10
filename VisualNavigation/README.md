@@ -8,8 +8,8 @@
     - <a href="#PG">point goal</a>
     - <a href="#OB">object goal</a>
     - <a href="#AG">area goal</a>
-    - <a href="#instrction">Instruction</a>
-    - <a href="#question">Question</a>
+    - <a href="#instrction">instruction</a>
+    - <a href="#question">question</a>
 
 ### Survey
 
