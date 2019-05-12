@@ -19,8 +19,8 @@
 
 #### <a name="image">image</a>
 
-Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[paper](https://arxiv.org/pdf/1606.02396.pdf)\]
-`method: image --> CNN --> successor representation (SR)`
+Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[paper](https://arxiv.org/pdf/1606.02396.pdf)\]<br/>
+`method: image --> CNN --> successor representation (SR)`<br/>
 `Environment: MazeBase gridworld, VizDoom`
 
 Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\]
