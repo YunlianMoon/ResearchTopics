@@ -23,19 +23,19 @@ Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[pape
 `method: image --> CNN --> successor representation (SR)`<br/>
 `environment: MazeBase gridworld, VizDoom`
 
-Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\]<br\>
+Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\]<br/>
 `environment: Minecraft`
 
-A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Chen Tessler\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14630/13950)\]<br\>
+A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Chen Tessler\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14630/13950)\]<br/>
 `environment: Minecraft`
 
 Towards cognitive exploration through deep reinforcement learning for mobile robots \[2016, arxiv, Lei Tai\] \[[paper](https://arxiv.org/pdf/1610.01733.pdf)\]
 
-Deep reinforcement learning in a 3-d blockworld environment \[2016, IJCAI, Trevor Barron\] \[[paper](http://cs.coloradocollege.edu/~mwhitehead/files/mypapers/blockworld.pdf)\]<br\>
+Deep reinforcement learning in a 3-d blockworld environment \[2016, IJCAI, Trevor Barron\] \[[paper](http://cs.coloradocollege.edu/~mwhitehead/files/mypapers/blockworld.pdf)\]<br/>
 `environment: Minecraft`
 
-Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[paper](https://arxiv.org/pdf/1611.03673.pdf)\]<br\>
-`method: (image --> CNN) + additional inputs (velocity, action, reward) --> policy + auxiliary losses (depth prediction, loop closure)`<br\>
+Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[paper](https://arxiv.org/pdf/1611.03673.pdf)\]<br/>
+`method: (image --> CNN) + additional inputs (velocity, action, reward) --> policy + auxiliary losses (depth prediction, loop closure)`<br/>
 `environment: DeepMind Lab`
 
 Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\]
