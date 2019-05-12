@@ -39,7 +39,7 @@ Deep reinforcement learning in a 3-d blockworld environment \[2016, IJCAI, Trevo
 `environment: Minecraft`
 
 Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[paper](https://arxiv.org/pdf/1611.03673.pdf)\]<br/>
-`method: (image --> CNN) + additional inputs (velocity, action, reward) --> policy (A3C) + auxiliary losses (depth prediction, loop closure)`<br/>
+`method: (image --> CNN) + additional inputs (velocity, action, reward) --> stacked LSTM --> policy (A3C) + auxiliary losses (depth prediction, loop closure)`<br/>
 `environment: DeepMind Lab`
 
 
