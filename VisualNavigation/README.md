@@ -42,6 +42,10 @@ Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[
 `method: (image --> CNN) + additional inputs (velocity, action, reward) --> stacked LSTM --> policy (A3C) + auxiliary losses (depth prediction, loop closure)`<br/>
 `environment: DeepMind Lab`
 
+Deepnav: Learning to navigate large cities \[2017, CVPR, Samarth Brahmbhatt\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Brahmbhatt_DeepNav_Learning_to_CVPR_2017_paper.pdf)\]<br/>
+
+
+
 
 
 
