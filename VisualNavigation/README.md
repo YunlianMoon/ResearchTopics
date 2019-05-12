@@ -23,6 +23,8 @@ Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[pape
 `method: image --> CNN --> successor representation (SR)`<br/>
 `environment: MazeBase gridworld, VizDoom`
 
+Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\]
+
 Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\]<br/>
 `environment: Minecraft`
 
@@ -38,7 +40,7 @@ Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[
 `method: (image --> CNN) + additional inputs (velocity, action, reward) --> policy + auxiliary losses (depth prediction, loop closure)`<br/>
 `environment: DeepMind Lab`
 
-Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\]
+
 
 
 
