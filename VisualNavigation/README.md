@@ -21,7 +21,7 @@
 
 #### <a name="image">image</a>
 
-##### <a name="same">same environment/task</a>
+#### <a name="same">same environment/task</a>
 
 Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[paper](https://arxiv.org/pdf/1606.02396.pdf)\]<br/>
 `method: image --> CNN --> successor representation (SR)`<br/>
@@ -54,7 +54,7 @@ Application of deep reinforcement learning in mobile robot path planning \[2017,
 `method: image --> CNN --> DQN`<br/>
 `environment: DeepMind Lab`
 
-##### <a name="unseen">generalization</a>
+#### <a name="unseen">generalization</a>
 Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\]<br/>
 `method: (image + target image) --> ResNet50 --> generic siamese layers --> scene-specific layers: policy (A3C)`<br/>
 `environment: AI2-THOR`
