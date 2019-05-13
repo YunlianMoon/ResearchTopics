@@ -42,6 +42,10 @@ Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[
 `method: (image --> CNN) + additional inputs (velocity, action, reward) --> stacked LSTM --> policy (A3C) + auxiliary losses (depth prediction, loop closure)`<br/>
 `environment: DeepMind Lab`
 
+Reinforcement learning with unsupervised auxiliary tasks \[2016, arxiv, Max Jaderberg\] \[[paper](https://arxiv.org/pdf/1611.05397.pdf)\]<br/>
+`method: image --> CNN --> LSTM --> policy + auxiliary losses`<br/>
+`environment: Labyrinth`
+
 Deepnav: Learning to navigate large cities \[2017, CVPR, Samarth Brahmbhatt\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Brahmbhatt_DeepNav_Learning_to_CVPR_2017_paper.pdf)\]<br/>
 `method: supervised learning`<br/>
 `environment: Google Street View`
@@ -55,10 +59,6 @@ Application of deep reinforcement learning in mobile robot path planning \[2017,
 `environment: DeepMind Lab`
 
 #### <a name="unseen">generalization</a>
-
-Reinforcement learning with unsupervised auxiliary tasks \[2016, arxiv, Max Jaderberg\] \[[paper](https://arxiv.org/pdf/1611.05397.pdf)\]<br/>
-`method: image --> CNN --> LSTM --> policy + auxiliary losses`<br/>
-`environment: Labyrinth`
 
 Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\]<br/>
 `method: (image + target image) --> ResNet50 --> generic siamese layers --> scene-specific layers: policy (A3C)`<br/>
