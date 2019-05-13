@@ -46,6 +46,10 @@ Deepnav: Learning to navigate large cities \[2017, CVPR, Samarth Brahmbhatt\] \[
 `method: supervised learning`<br/>
 `environment: Google Street View`
 
+A deep Q network for robotic planning from image \[2017, ICARM, Jianhui Han\] \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8273235)\]<br/>
+`method: image --> CNN --> DQN`<br/>
+`environment: Gazebo`
+
 
 
 
