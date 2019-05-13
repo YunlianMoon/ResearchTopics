@@ -56,13 +56,15 @@ Application of deep reinforcement learning in mobile robot path planning \[2017,
 
 #### <a name="unseen">generalization</a>
 
+Reinforcement learning with unsupervised auxiliary tasks \[2016, arxiv, Max Jaderberg\] \[[paper](https://arxiv.org/pdf/1611.05397.pdf)\]<br/>
+`method: image --> CNN --> LSTM --> policy + auxiliary losses`<br/>
+`environment: Labyrinth`
+
 Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\]<br/>
 `method: (image + target image) --> ResNet50 --> generic siamese layers --> scene-specific layers: policy (A3C)`<br/>
 `environment: AI2-THOR`
 
-Reinforcement learning with unsupervised auxiliary tasks \[2017, arxiv, Max Jaderberg\] \[[paper](https://arxiv.org/pdf/1611.05397.pdf)\]<br/>
-`method: `<br/>
-`environment: `
+
 
 
 
