@@ -43,6 +43,8 @@ Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[
 `environment: DeepMind Lab`
 
 Deepnav: Learning to navigate large cities \[2017, CVPR, Samarth Brahmbhatt\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Brahmbhatt_DeepNav_Learning_to_CVPR_2017_paper.pdf)\]<br/>
+`method: supervised learning`<br/>
+`environment: Google Street View`
 
 
 
