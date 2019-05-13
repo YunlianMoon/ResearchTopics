@@ -77,7 +77,7 @@ Learning to navigate in cities without a map \[2018, NIPS, Piotr Mirowski\] \[[p
 `method: (image --> CNN) + (goal description, reward, action) --> LSTM --> policy (A3C) + auxiliary losses`<br/>
 `environment: Google Street View`
 
-Zero-shot visual imitation \[2018, CVPR, Deepak Pathak\] \[[paper]http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w40/Pathak_Zero-Shot_Visual_Imitation_CVPR_2018_paper.pdf)\]<br/>
+Zero-shot visual imitation \[2018, CVPR, Deepak Pathak\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w40/Pathak_Zero-Shot_Visual_Imitation_CVPR_2018_paper.pdf)\]<br/>
 `method: ((image + goal image) --> CNN) + action --> LSTM --> policy (imitation learing) + auxiliary losses`<br/>
 `environment: VizDoom`
 
