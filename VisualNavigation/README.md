@@ -82,8 +82,8 @@ Zero-shot visual imitation \[2018, CVPR, Deepak Pathak\] \[[paper](http://openac
 `environment: VizDoom`
 
 Unsupervised predictive memory in a goal-directed agent \[2018, arxiv, Greg Wayne\] \[[paper](https://arxiv.org/pdf/1803.10760.pdf)\]<br/>
-`method: `<br/>
-`environment: `
+`method: image --> CNN --> LSTM --> Memory --> policy (A3C)`<br/>
+`environment: DeepMind Lab`
 
 
 
