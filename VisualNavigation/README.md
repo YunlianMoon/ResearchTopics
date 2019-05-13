@@ -81,6 +81,10 @@ Zero-shot visual imitation \[2018, CVPR, Deepak Pathak\] \[[paper](http://openac
 `method: ((image + goal image) --> CNN) + action --> LSTM --> policy (imitation learing) + auxiliary losses`<br/>
 `environment: VizDoom`
 
+Unsupervised predictive memory in a goal-directed agent \[2018, arxiv, Greg Wayne\] \[[paper](https://arxiv.org/pdf/1803.10760.pdf)\]<br/>
+`method: `<br/>
+`environment: `
+
 
 
 
