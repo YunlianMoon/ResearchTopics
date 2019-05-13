@@ -73,6 +73,10 @@ Neural map: Structured memory for deep reinforcement learning \[2017, arxiv, Emi
 `method: image --> CNN --> LSIM --> Memory --> policy (A3C)`<br/>
 `environment: 2D maze, VizDoom`
 
+Learning to navigate in cities without a map \[2018, NIPS, Piotr Mirowski\] \[[paper](https://papers.nips.cc/paper/7509-learning-to-navigate-in-cities-without-a-map.pdf)\]<br/>
+`method: (image --> CNN) + (goal description, reward, action) --> LSTM --> policy (A3C) + auxiliary losses`<br/>
+`environment: Google Street View`
+
 
 
 
