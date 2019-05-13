@@ -69,6 +69,10 @@ Transfer deep reinforcement learning in 3d environments: An empirical study \[20
 `method: image --> CNN --> policy: DQN`<br/>
 `environment: VizDoom`
 
+Neural map: Structured memory for deep reinforcement learning \[2017, arxiv, Emilio Parisotto\] \[[paper](https://arxiv.org/pdf/1702.08360.pdf)\]<br/>
+`method: image --> CNN --> LSIM --> Memory --> policy (A3C)`<br/>
+`environment: 2D maze, VizDoom`
+
 
 
 
