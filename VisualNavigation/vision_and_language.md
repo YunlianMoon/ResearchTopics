@@ -3,6 +3,7 @@
 ### Table of Contents
 - Survey
 - Paper
+  - <a href="#image">image</a>
   - <a href="#VLN">vision and language</a>
     - <a href="#PG">point goal</a>
     - <a href="#OB">object goal</a>
