@@ -27,9 +27,6 @@ Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[pape
 `method: image --> CNN --> successor representation (SR)`<br/>
 `environment: MazeBase gridworld, VizDoom`
 
-Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\]<br/>
-`environment: Minecraft`
-
 A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Chen Tessler\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14630/13950)\]<br/>
 `environment: Minecraft`
 
@@ -59,6 +56,10 @@ Application of deep reinforcement learning in mobile robot path planning \[2017,
 `environment: DeepMind Lab`
 
 #### <a name="unseen">generalization</a>
+
+Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\]<br/>
+`method: image --> CNN --> LSTM --> Memory --> policy (DQN)`<br/>
+`environment: Minecraft`
 
 Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\]<br/>
 `method: (image + target image) --> ResNet50 --> generic siamese layers --> scene-specific layers: policy (A3C)`<br/>
