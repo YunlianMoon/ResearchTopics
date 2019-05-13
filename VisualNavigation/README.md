@@ -65,6 +65,10 @@ Target-driven visual navigation in indoor scenes using deep reinforcement learni
 `method: (image + target image) --> ResNet50 --> generic siamese layers --> scene-specific layers: policy (A3C)`<br/>
 `environment: AI2-THOR`
 
+Transfer deep reinforcement learning in 3d environments: An empirical study \[2016, NIPS, Devendra Singh Chaplot\] \[[paper](http://www.cs.cmu.edu/~rsalakhu/papers/DeepRL_Transfer.pdf)\]<br/>
+`method: image --> CNN --> policy: DQN`<br/>
+`environment: VizDoom`
+
 
 
 
