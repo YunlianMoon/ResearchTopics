@@ -4,6 +4,8 @@
 - Survey
 - Paper
   - <a href="#image">image</a>
+    - <a href="#same">same envirionment/task for evaluation</a>
+    - <a href="#unseen">generalization</a>
   - <a href="#VLN">vision and language</a>
     - <a href="#PG">point goal</a>
     - <a href="#OB">object goal</a>
@@ -19,13 +21,11 @@
 
 #### <a name="image">image</a>
 
+##### <a name="same">same environment/task</a>
+
 Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[paper](https://arxiv.org/pdf/1606.02396.pdf)\]<br/>
 `method: image --> CNN --> successor representation (SR)`<br/>
 `environment: MazeBase gridworld, VizDoom`
-
-Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\]<br/>
-`method: (image + target image) --> ResNet50 --> generic siamese layers --> scene-specific layers: policy (A3C)`<br/>
-`environment: AI2-THOR`
 
 Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\]<br/>
 `environment: Minecraft`
@@ -49,6 +49,16 @@ Deepnav: Learning to navigate large cities \[2017, CVPR, Samarth Brahmbhatt\] \[
 A deep Q network for robotic planning from image \[2017, ICARM, Jianhui Han\] \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8273235)\]<br/>
 `method: image --> CNN --> DQN`<br/>
 `environment: Gazebo`
+
+Application of deep reinforcement learning in mobile robot path planning \[2017, CAC, Jing Xin\] \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8244061)\]<br/>
+`method: image --> CNN --> DQN`<br/>
+`environment: DeepMind Lab`
+
+##### <a name="unseen">generalization</a>
+Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\]<br/>
+`method: (image + target image) --> ResNet50 --> generic siamese layers --> scene-specific layers: policy (A3C)`<br/>
+`environment: AI2-THOR`
+
 
 
 
