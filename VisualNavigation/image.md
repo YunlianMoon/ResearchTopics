@@ -31,11 +31,6 @@ A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Che
 `method: image --> (CNN --> Q) + (CNN --> skills) --> policy (DQN)`
 `environment: Minecraft`
 
-A robot exploration strategy based on q-learning network \[2016, RCAR, Tai Lei\] \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7784001)\]
-
-Deep reinforcement learning in a 3-d blockworld environment \[2016, IJCAI, Trevor Barron\] \[[paper](http://cs.coloradocollege.edu/~mwhitehead/files/mypapers/blockworld.pdf)\]<br/>
-`environment: Minecraft`
-
 Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[paper](https://arxiv.org/pdf/1611.03673.pdf)\]<br/>
 `method: (image --> CNN) + additional inputs (velocity, action, reward) --> stacked LSTM --> policy (A3C) + auxiliary losses (depth prediction, loop closure)`<br/>
 `environment: DeepMind Lab`
