@@ -34,6 +34,8 @@ Reinforcement learning with unsupervised auxiliary tasks \[2016, arxiv, Max Jade
 `method: image --> CNN --> LSTM --> policy + auxiliary losses`<br/>
 `environment: Labyrinth`
 
+Training agent for first-person shooter game with actor-critic curriculum learning \[2017, ICLR, Yuxin Wu\] \[[paper](https://openreview.net/pdf?id=Hk3mPK5gg)\]
+
 Deepnav: Learning to navigate large cities \[2017, CVPR, Samarth Brahmbhatt\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Brahmbhatt_DeepNav_Learning_to_CVPR_2017_paper.pdf)\]<br/>
 `method: supervised learning`<br/>
 `environment: Google Street View`
