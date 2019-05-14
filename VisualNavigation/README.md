@@ -17,9 +17,4 @@
 
 [Dhiman, Vikas, et al. "A critical investigation of deep reinforcement learning for navigation." arXiv preprint arXiv:1802.02274 (2018).](https://arxiv.org/pdf/1802.02274.pdf)
 
-### Paper
-
-#### <a name="image">image</a>
-
-#### <a name="same">same environment/task</a>
 
