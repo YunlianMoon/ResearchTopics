@@ -28,7 +28,7 @@ Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[pape
 `environment: MazeBase gridworld, VizDoom`
 
 A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Chen Tessler\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14630/13950)\]<br/>
-`method: image --> (CNN --> Q) + (CNN --> skills) --> policy (DQN)`
+`method: image --> (CNN --> Q) + (CNN --> skills) --> policy (DQN)`<br/>
 `environment: Minecraft`
 
 Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[paper](https://arxiv.org/pdf/1611.03673.pdf)\]<br/>
