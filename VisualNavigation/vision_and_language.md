@@ -37,7 +37,7 @@ Zero-shot task generalization with multi-task deep reinforcement learning \[2017
 `environment: Minecraft`
 
 Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz Hermann\] \[[paper](https://arxiv.org/pdf/1706.06551.pdf)\]<br/>
-`method: ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> policy (A3C) + autoencoder auxiliary task + language prediction`<br/>
+`method: ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> policy (A3C) + autoencoder auxiliary task + language      prediction`<br/>
 `environment: DeepMind Lab`
 
 Mapping instructions and visual observations to actions with reinforcement learning \[2017, arxiv, Dipendra Misra\] \[[paper](https://arxiv.org/pdf/1704.08795.pdf)\]<br/>
