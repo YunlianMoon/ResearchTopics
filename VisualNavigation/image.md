@@ -7,11 +7,6 @@
     - <a href="#same">same envirionment/task for evaluation</a>
     - <a href="#unseen">generalization</a>
   - <a href="#VLN">vision and language</a>
-    - <a href="#PG">point goal</a>
-    - <a href="#OB">object goal</a>
-    - <a href="#AG">area goal</a>
-    - <a href="#instrction">instruction</a>
-    - <a href="#question">question</a>
 
 ### Survey
 
