@@ -18,8 +18,8 @@ Visual semantic planning using deep successor representations \[2017, ICCV, Yuke
 `environment: AI2-THOR`
 
 Visual representations for semantic target driven navigation \[2018, arxiv, Arsalan Mousavian\] \[[paper](https://arxiv.org/pdf/1805.06066.pdf)\]<br/>
-`description: reward (distance)`
-`method: ((image --> ResNet50) + target (one-hot) + action + success binary indicator (colison)) --> CNN --> LSTM --> NN --> policy (imitation learning + DQN)`
+`description: reward (distance)`<br/>
+`method: ((image --> ResNet50) + target (one-hot) + action + success binary indicator (colison) + object detection + semantic segmentation + depth image) --> CNN --> LSTM --> NN --> policy (imitation learning + DQN)`<br/>
 `environment: SUNCG, AVD`
 
 Visual semantic navigation using scene priors \[2018, arxiv, Wei Yang\] \[[paper](https://arxiv.org/pdf/1810.06543.pdf)\]
