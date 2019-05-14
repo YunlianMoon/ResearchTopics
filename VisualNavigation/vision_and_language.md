@@ -23,6 +23,8 @@ Visual representations for semantic target driven navigation \[2018, arxiv, Arsa
 `environment: SUNCG, AVD`
 
 Visual semantic navigation using scene priors \[2018, arxiv, Wei Yang\] \[[paper](https://arxiv.org/pdf/1810.06543.pdf)\]
+`method: ((4 history images --> ResNet50) + (goal --> word embedding) + (graph knowledge --> GCN)) --> NN --> policy (A3C)`
+`environment: AI2-THOR`
 
 #### <a name="instruction">instruction</a>
 
