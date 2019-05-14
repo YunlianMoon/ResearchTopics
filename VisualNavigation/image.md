@@ -50,6 +50,8 @@ Application of deep reinforcement learning in mobile robot path planning \[2017,
 
 One-shot reinforcement learning for robot navigation with interactive replay \[2017, arxiv, Jake Bruce\] \[[paper](https://arxiv.org/pdf/1711.10137.pdf)\]
 
+Self-supervised deep reinforcement learning with generalized computation graphs for robot navigation \[2018, ICRA, Gregory Kahn\] \[[paper](https://arxiv.org/pdf/1709.10489.pdf)\]
+
 #### <a name="unseen">generalization</a>
 
 Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\]<br/>
