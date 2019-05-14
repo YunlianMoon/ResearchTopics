@@ -28,8 +28,6 @@ Visual semantic navigation using scene priors \[2018, arxiv, Wei Yang\] \[[paper
 
 #### <a name="instruction">instruction</a>
 
-Listen, attend, and walk: Neural mapping of navigational instructions to action sequences \[2016, AAAI, Hongyuan Mei\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewFile/12522/12021)\]
-
 Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\]
 
 #### <a name="question">question</a>
