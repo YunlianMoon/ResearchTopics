@@ -28,7 +28,23 @@ Visual semantic navigation using scene priors \[2018, arxiv, Wei Yang\] \[[paper
 
 #### <a name="instruction">instruction</a>
 
-Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\]
+Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\]<br/>
+`method: ((image --> CNN) + (textual instruction) --> LSTM) --> NN --> LSTM --> policy (A3C)`<br/>
+`environment: DeepMind Lab`
+
+Zero-shot task generalization with multi-task deep reinforcement learning \[2017, ICML, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1706.05064.pdf)\]<br/>
+`method: `<br/>
+`environment: Minecraft`
+
+Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz Hermann\] \[[paper](https://arxiv.org/pdf/1706.06551.pdf)\]<br/>
+`method: ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> policy (A3C) + autoencoder auxiliary task + language prediction`<br/>
+`environment: DeepMind Lab`
+
+Mapping instructions and visual observations to actions with reinforcement learning \[2017, arxiv, Dipendra Misra\] \[[paper](https://arxiv.org/pdf/1704.08795.pdf)\]<br/>
+`method: ((image --> CNN) + (instruction --> LSTM) + (action --> NN)) --> NN --> policy (policy gradient)`<br/>
+`environment: block world`
+
+
 
 #### <a name="question">question</a>
 
