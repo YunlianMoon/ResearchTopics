@@ -6,6 +6,8 @@ Memory augmented control networks \[2017, arxiv, Arbaaz Khan\]\[[paper](https://
 
 Cognitive mapping and planning for visual navigation \[2017, CVPR, Saurabh Gupta\]\[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Gupta_Cognitive_Mapping_and_CVPR_2017_paper.pdf))\]
 
+Semi-parametric topological memory for navigation \[2018, arxiv, Nikolay Savinov\]\[[paper](https://arxiv.org/pdf/1803.00653.pdf))\]
+
 
 
 
