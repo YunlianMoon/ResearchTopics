@@ -14,4 +14,6 @@ Deep reinforcement learning in a 3-d blockworld environment \[2016, IJCAI, Trevo
 `method: image --> CNN --> policy (DQN)`<br/>
 `environment: Minecraft`
 
+Towards monocular vision based obstacle avoidance through deep reinforcement learning \[2017, arxiv, Linhai Xie\] \[[paper](https://arxiv.org/pdf/1706.09829.pdf)\]
+
 
