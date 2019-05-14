@@ -14,6 +14,9 @@ Deep reinforcement learning in a 3-d blockworld environment \[2016, IJCAI, Trevo
 `method: image --> CNN --> policy (DQN)`<br/>
 `environment: Minecraft`
 
+Cad2rl: Real single-image flight without a single real image \[2016, arxiv, Fereshteh Sadeghi\] \[[paper](https://arxiv.org/pdf/1611.04201.pdf)\]<br/>
+`topic: collision avoidance`
+
 Towards monocular vision based obstacle avoidance through deep reinforcement learning \[2017, arxiv, Linhai Xie\] \[[paper](https://arxiv.org/pdf/1706.09829.pdf)\]
 
 
