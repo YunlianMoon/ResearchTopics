@@ -26,6 +26,15 @@ Visual semantic navigation using scene priors \[2018, arxiv, Wei Yang\] \[[paper
 `method: ((4 history images --> ResNet50) + (goal --> word embedding) + (graph knowledge --> GCN)) --> NN --> policy (A3C)`<br/>
 `environment: AI2-THOR`
 
+#### <a name="AG">area goal</a>
+
+Building generalizable agents with a realistic and rich 3d environment \[2018, arxiv, Yi Wu\] \[[paper](https://arxiv.org/pdf/1801.02209.pdf?utm_content=buffer53a22&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)\]<br/>
+`description: unseen environments`<br/>
+`method: (((depth image + semantic segmentation + image) --> CNN) + (concept --> embedding)) --> NN --> LSTM --> policy (A3C/DDPG)`<br/>
+`environment: House3D`
+
+
+
 #### <a name="instruction">instruction</a>
 
 Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\]<br/>
@@ -49,9 +58,27 @@ Gated-attention architectures for task-oriented language grounding \[2018, AAAI,
 `method: ((image --> CNN) + (text instruction --> GRU)) --> attention --> NN --> LSTM --> NN --> policy (A3C) + imitation learning`<br/>
 `environment: ViZDoom`
 
+Vision-and-language navigation: Interpreting visually-grounded navigation instructions in real environments \[2018, CVPR, Peter Anderson\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Anderson_Vision-and-Language_Navigation_Interpreting_CVPR_2018_paper.pdf)\]<br/>
+`description: unseen environments`<br/>
+`method: ((instruction --> LSTM) + (image --> ResNet152) + (action --> NN)) --> attention --> LSTM --> imitation learning`<br/>
+`environment: R2R`
 
+Speaker-follower models for vision-and-language navigation \[2018, NIPS, Daniel Fried\] \[[paper](https://papers.nips.cc/paper/7592-speaker-follower-models-for-vision-and-language-navigation.pdf)\]<br/>
+`description: unseen environment`<br/>
+`method: fllower module + speaker module`<br/>
+`environment: R2R`
+
+Look before you leap: Bridging model-free and model-based reinforcement learning for planned-ahead vision-and-language navigation \[2018, ECCV, Xin Wang\] \[[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xin_Wang_Look_Before_You_ECCV_2018_paper.pdf)\]<br/>
+`description: unseen environments`<br/>
+`method: model-free + model-based`<br/>
+`environment: R2R`
 
 #### <a name="question">question</a>
+
+Iqa: Visual question answering in interactive environments \[2018, CVPR, Daniel Gordon\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gordon_IQA_Visual_Question_CVPR_2018_paper.pdf)\]<br/>
+`description: unseen environments`<br/>
+`method: navigator + manipulator + detector + scanner + answerer`<br/>
+`environment: AI2-THOR`
 
 
 
