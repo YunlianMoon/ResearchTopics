@@ -45,7 +45,7 @@ Mapping instructions and visual observations to actions with reinforcement learn
 `environment: block world`
 
 Gated-attention architectures for task-oriented language grounding \[2018, AAAI, Devendra Singh Chaplot\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17425/16578)\]<br/>
-`description: unseen instructions/maps`
+`description: unseen instructions/maps` <br/>
 `method: ((image --> CNN) + (text instruction --> GRU)) --> attention --> NN --> LSTM --> NN --> policy (A3C) + imitation learning`<br/>
 `environment: ViZDoom`
 
