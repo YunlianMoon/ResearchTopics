@@ -17,4 +17,6 @@
 
 [Dhiman, Vikas, et al. "A critical investigation of deep reinforcement learning for navigation." arXiv preprint arXiv:1802.02274 (2018).](https://arxiv.org/pdf/1802.02274.pdf)
 
+On evaluation of embodied navigation agents
+
 
