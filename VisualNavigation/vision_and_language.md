@@ -73,12 +73,30 @@ Look before you leap: Bridging model-free and model-based reinforcement learning
 `method: model-free + model-based`<br/>
 `environment: R2R`
 
+Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation \[2018, arxiv, Xin Wang\] \[[paper](https://arxiv.org/pdf/1811.10092.pdf)\]<br/>
+`description: unseen environments`<br/>
+`method: (textual instruction --> NN + image --> CNN + action) --> attention --> LSTM --> policy (imitation learning + A3C)`<br/>
+`environment: R2R`
+
+Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation \[2019, arxiv, Liyiming Ke\] \[[paper](https://arxiv.org/pdf/1903.02547.pdf)\]<br/>
+`description: `<br/>
+`method: `<br/>
+`environment: `
+
+
 #### <a name="question">question</a>
 
 Iqa: Visual question answering in interactive environments \[2018, CVPR, Daniel Gordon\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gordon_IQA_Visual_Question_CVPR_2018_paper.pdf)\]<br/>
 `description: unseen environments`<br/>
 `method: navigator + manipulator + detector + scanner + answerer`<br/>
 `environment: AI2-THOR`
+
+Embodied question answering \[2018, CVPR, Abhishek Das\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w40/Das_Embodied_Question_Answering_CVPR_2018_paper.pdf)\]<br/>
+`description: unseen environments`<br/>
+`method: (image --> CNN + question --> LSTM) --> planner + controller`<br/>
+`environment: House3D`
+
+
 
 
 
