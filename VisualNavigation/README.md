@@ -4,7 +4,7 @@
 - Survey
 - Paper
   - <a href="#image">image</a>
-    - <a href="#same">same envirionment/task for evaluation</a>
+    - <a href="#same">seen envirionment/task</a>
     - <a href="#unseen">generalization</a>
   - <a href="#VLN">vision and language</a>
     - <a href="#PG">point goal</a>
