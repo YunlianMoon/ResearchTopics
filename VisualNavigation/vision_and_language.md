@@ -93,6 +93,7 @@ Iqa: Visual question answering in interactive environments \[2018, CVPR, Daniel 
 
 Embodied question answering \[2018, CVPR, Abhishek Das\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w40/Das_Embodied_Question_Answering_CVPR_2018_paper.pdf)\]<br/>
 `description: unseen environments`<br/>
+`method: hierarchical model`<br/>
 `method: (image --> CNN + question --> LSTM) --> planner + controller`<br/>
 `environment: House3D`
 
