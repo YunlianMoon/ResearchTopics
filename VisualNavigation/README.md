@@ -15,7 +15,7 @@
 
 ### Survey
 
-Probabilistic robotics \[2005, MIT press, Bonin-Font\] \[[Paper](http://home.deib.polimi.it/gini/robot/docs/Thrun.pdf)\]
+Probabilistic robotics \[2005, MIT press, Sebastian Thrun\] \[[Paper](http://home.deib.polimi.it/gini/robot/docs/Thrun.pdf)\]
 
 Visual navigation for mobile robots: A survey \[2008, IORS, Bonin-Font\] \[[Paper](https://link.springer.com/content/pdf/10.1007%2Fs10846-008-9235-4.pdf)\]
 
