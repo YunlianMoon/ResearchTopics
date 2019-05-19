@@ -22,4 +22,6 @@ Listen, attend, and walk: Neural mapping of navigational instructions to action 
 
 Towards monocular vision based obstacle avoidance through deep reinforcement learning \[2017, arxiv, Linhai Xie\] \[[paper](https://arxiv.org/pdf/1706.09829.pdf)\]
 
+From perception to decision: A data-driven approach to end-to-end motion planning for autonomous ground robots \[2017, ICRA, Mark Pfeiffer\] \[[paper](https://arxiv.org/pdf/1609.07910.pdf)\]
+
 
