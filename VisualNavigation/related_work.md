@@ -1,5 +1,7 @@
 # Related Work in Visual Navigation
 
+Learning models for following natural language directions in unknown environments \[2015, ICRA, Sachithra Hemachandra\] \[[paper](https://arxiv.org/pdf/1503.05079.pdf)\]
+
 A robot exploration strategy based on q-learning network \[2016, RCAR, Tai Lei\] \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7784001)\]<br/>
 `topic: obstacle avoidance`<br/>
 `method: depth image --> CNN --> policy (DQN)`<br/>
@@ -23,5 +25,11 @@ Listen, attend, and walk: Neural mapping of navigational instructions to action 
 Towards monocular vision based obstacle avoidance through deep reinforcement learning \[2017, arxiv, Linhai Xie\] \[[paper](https://arxiv.org/pdf/1706.09829.pdf)\]
 
 From perception to decision: A data-driven approach to end-to-end motion planning for autonomous ground robots \[2017, ICRA, Mark Pfeiffer\] \[[paper](https://arxiv.org/pdf/1609.07910.pdf)\]
+
+Self-Monitoring Navigation Agent via Auxiliary Progress Estimation \[2019, arxiv, Chih-Yao Ma\] \[[paper](https://arxiv.org/pdf/1901.03035.pdf)\]
+
+Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation \[2019, arxiv, Liyiming Ke\] \[[paper](https://arxiv.org/pdf/1903.02547.pdf)\]<br/>
+`method: not RL`<br/>
+`environment: R2R`
 
 
