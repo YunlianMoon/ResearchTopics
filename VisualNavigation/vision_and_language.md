@@ -26,17 +26,6 @@ Visual semantic navigation using scene priors \[2018, arxiv, Wei Yang\] \[[paper
 `method: ((4 history images --> ResNet50) + (goal --> word embedding) + (graph knowledge --> GCN)) --> NN --> policy (A3C)`<br/>
 `environment: AI2-THOR`
 
-#### <a name="AG">area goal</a>
-
-Building generalizable agents with a realistic and rich 3d environment \[2018, arxiv, Yi Wu\] \[[paper](https://arxiv.org/pdf/1801.02209.pdf?utm_content=buffer53a22&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)\]<br/>
-`description: unseen environments`<br/>
-`method: (((depth image + semantic segmentation + image) --> CNN) + (concept --> embedding)) --> NN --> LSTM --> policy (A3C/DDPG)`<br/>
-`environment: House3D`
-
-
-
-#### <a name="instruction">instruction</a>
-
 Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\]<br/>
 `method: ((image --> CNN) + (textual instruction) --> LSTM) --> NN --> LSTM --> policy (A3C)`<br/>
 `environment: DeepMind Lab`
@@ -49,23 +38,27 @@ Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz He
 `method: ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> policy (A3C) + autoencoder auxiliary task + language      prediction`<br/>
 `environment: DeepMind Lab`
 
-Mapping instructions and visual observations to actions with reinforcement learning \[2017, arxiv, Dipendra Misra\] \[[paper](https://arxiv.org/pdf/1704.08795.pdf)\]<br/>
-`method: ((image --> CNN) + (instruction --> LSTM) + (action --> NN)) --> NN --> policy (policy gradient)`<br/>
-`environment: block world`
-
 Gated-attention architectures for task-oriented language grounding \[2018, AAAI, Devendra Singh Chaplot\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17425/16578)\]<br/>
 `description: unseen instructions/maps`<br/>
 `method: ((image --> CNN) + (text instruction --> GRU)) --> attention --> NN --> LSTM --> NN --> policy (A3C) + imitation learning`<br/>
 `environment: ViZDoom`
 
+#### <a name="AG">area goal</a>
+
+Building generalizable agents with a realistic and rich 3d environment \[2018, arxiv, Yi Wu\] \[[paper](https://arxiv.org/pdf/1801.02209.pdf?utm_content=buffer53a22&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)\]<br/>
+`description: unseen environments`<br/>
+`method: (((depth image + semantic segmentation + image) --> CNN) + (concept --> embedding)) --> NN --> LSTM --> policy (A3C/DDPG)`<br/>
+`environment: House3D`
+
+#### <a name="instruction">instruction</a>
+
+Mapping instructions and visual observations to actions with reinforcement learning \[2017, arxiv, Dipendra Misra\] \[[paper](https://arxiv.org/pdf/1704.08795.pdf)\]<br/>
+`method: ((image --> CNN) + (instruction --> LSTM) + (action --> NN)) --> NN --> policy (policy gradient)`<br/>
+`environment: block world`
+
 Vision-and-language navigation: Interpreting visually-grounded navigation instructions in real environments \[2018, CVPR, Peter Anderson\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Anderson_Vision-and-Language_Navigation_Interpreting_CVPR_2018_paper.pdf)\]<br/>
 `description: unseen environments`<br/>
 `method: ((instruction --> LSTM) + (image --> ResNet152) + (action --> NN)) --> attention --> LSTM --> imitation learning`<br/>
-`environment: R2R`
-
-Speaker-follower models for vision-and-language navigation \[2018, NIPS, Daniel Fried\] \[[paper](https://papers.nips.cc/paper/7592-speaker-follower-models-for-vision-and-language-navigation.pdf)\]<br/>
-`description: unseen environment`<br/>
-`method: fllower module + speaker module`<br/>
 `environment: R2R`
 
 Look before you leap: Bridging model-free and model-based reinforcement learning for planned-ahead vision-and-language navigation \[2018, ECCV, Xin Wang\] \[[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xin_Wang_Look_Before_You_ECCV_2018_paper.pdf)\]<br/>
@@ -73,16 +66,15 @@ Look before you leap: Bridging model-free and model-based reinforcement learning
 `method: model-free + model-based`<br/>
 `environment: R2R`
 
+Speaker-follower models for vision-and-language navigation \[2018, NIPS, Daniel Fried\] \[[paper](https://papers.nips.cc/paper/7592-speaker-follower-models-for-vision-and-language-navigation.pdf)\]<br/>
+`description: unseen environment`<br/>
+`method: fllower module + speaker module`<br/>
+`environment: R2R`
+
 Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation \[2018, arxiv, Xin Wang\] \[[paper](https://arxiv.org/pdf/1811.10092.pdf)\]<br/>
 `description: unseen environments`<br/>
 `method: (textual instruction --> NN + image --> CNN + action) --> attention --> LSTM --> policy (imitation learning + A3C)`<br/>
 `environment: R2R`
-
-Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation \[2019, arxiv, Liyiming Ke\] \[[paper](https://arxiv.org/pdf/1903.02547.pdf)\]<br/>
-`description: `<br/>
-`method: `<br/>
-`environment: `
-
 
 #### <a name="question">question</a>
 
