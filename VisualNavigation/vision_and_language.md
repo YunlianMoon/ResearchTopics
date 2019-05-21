@@ -73,7 +73,7 @@ Speaker-follower models for vision-and-language navigation \[2018, NIPS, Daniel 
 
 Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation \[2018, arxiv, Xin Wang\] \[[paper](https://arxiv.org/pdf/1811.10092.pdf)\]<br/>
 `description: unseen environments`<br/>
-`method: (textual instruction --> NN + image --> CNN + action) --> attention --> LSTM --> policy (imitation learning + A3C)`<br/>
+`method: (textual instruction --> NN + (images --> CNN --> attention + action) --> LSTM) --> attention --> policy (imitation learning + A3C)`<br/>
 `environment: R2R`
 
 #### <a name="question">question</a>
