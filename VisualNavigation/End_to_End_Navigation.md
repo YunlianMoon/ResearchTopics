@@ -1,6 +1,6 @@
 # End to End Visual Navigation
 
-## Table of Contents
+### Table of Contents
 - <a href="#VLN">vision and language</a>
   - <a href="#instruction">instruction</a>
 
