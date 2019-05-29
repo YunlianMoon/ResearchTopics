@@ -66,11 +66,6 @@ Look before you leap: Bridging model-free and model-based reinforcement learning
 `method: model-free + model-based`<br/>
 `environment: R2R`
 
-Speaker-follower models for vision-and-language navigation \[2018, NIPS, Daniel Fried\] \[[paper](https://papers.nips.cc/paper/7592-speaker-follower-models-for-vision-and-language-navigation.pdf)\]<br/>
-`description: unseen environment`<br/>
-`method: fllower module + speaker module`<br/>
-`environment: R2R`
-
 Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation \[2018, arxiv, Xin Wang\] \[[paper](https://arxiv.org/pdf/1811.10092.pdf)\]<br/>
 `description: unseen environments`<br/>
 `reward: Extrinsic Reward (relative navigation distance/success) + Intrinsic Reward (instruction reconstruction) `
