@@ -1,4 +1,4 @@
-# Visual Navigation
+# Visual Navigation using DRL
 
 ### Table of Contents
 - Survey
