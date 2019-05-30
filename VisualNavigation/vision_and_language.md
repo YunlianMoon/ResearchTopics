@@ -66,11 +66,12 @@ Scheduled policy optimization for natural language communication with intelligen
 Look before you leap: Bridging model-free and model-based reinforcement learning for planned-ahead vision-and-language navigation \[2018, ECCV, Xin Wang\] \[[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xin_Wang_Look_Before_You_ECCV_2018_paper.pdf)\]<br/>
 `description: unseen environments`<br/>
 `method: model-free + model-based`<br/>
+`method: ((image --> CNN) + (instruction --> attention --> LSTM) ) --> LSTM --> policy (REINFORCE)`<br/>
 `environment: R2R`
 
 Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation \[2018, arxiv, Xin Wang\] \[[paper](https://arxiv.org/pdf/1811.10092.pdf)\]<br/>
 `description: unseen environments`<br/>
-`reward: Extrinsic Reward (relative navigation distance/success) + Intrinsic Reward (instruction reconstruction) `
+`reward: Extrinsic Reward (relative navigation distance/success) + Intrinsic Reward (instruction reconstruction)`<br/>
 `method: (textual instruction --> LSTM + (images --> CNN --> attention + action) --> LSTM) --> attention --> policy (imitation learning + REINFORCE)`<br/>
 `environment: R2R`
 
