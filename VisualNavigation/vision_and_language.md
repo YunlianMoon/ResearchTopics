@@ -61,7 +61,9 @@ Vision-and-language navigation: Interpreting visually-grounded navigation instru
 `method: ((instruction --> LSTM) + (image --> ResNet152) + (action --> NN)) --> attention --> LSTM --> imitation learning`<br/>
 `environment: R2R`
 
-Scheduled policy optimization for natural language communication with intelligent agents \[2018, arxiv, Wenhan Xiong\] \[[Paper](https://arxiv.org/pdf/1806.06187.pdf)\]
+Scheduled policy optimization for natural language communication with intelligent agents \[2018, arxiv, Wenhan Xiong\] \[[Paper](https://arxiv.org/pdf/1806.06187.pdf)\]<br/>
+`mehtod: (image --> CNN + instruction --> LSTM + action --> NN) --> policy (imitation learning + PPO/REINFORCE/A2C/DQN)`
+`environment: block-world`
 
 Look before you leap: Bridging model-free and model-based reinforcement learning for planned-ahead vision-and-language navigation \[2018, ECCV, Xin Wang\] \[[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xin_Wang_Look_Before_You_ECCV_2018_paper.pdf)\]<br/>
 `description: unseen environments`<br/>
