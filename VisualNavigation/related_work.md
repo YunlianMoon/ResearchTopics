@@ -21,6 +21,8 @@ Cad2rl: Real single-image flight without a single real image \[2016, arxiv, Fere
 
 Sim-to-real robot learning from pixels with progressive nets \[2016, arxiv, Andrei A. Rusu\] \[[paper](https://arxiv.org/pdf/1610.04286.pdf)\]
 
+Transfer from simulation to real world through learning deep inverse dynamics model \[2016, arxiv, Paul Christiano\] \[[paper](https://arxiv.org/pdf/1610.03518.pdf)\]
+
 Towards monocular vision based obstacle avoidance through deep reinforcement learning \[2017, arxiv, Linhai Xie\] \[[paper](https://arxiv.org/pdf/1706.09829.pdf)\]
 
 From perception to decision: A data-driven approach to end-to-end motion planning for autonomous ground robots \[2017, ICRA, Mark Pfeiffer\] \[[paper](https://arxiv.org/pdf/1609.07910.pdf)\]
