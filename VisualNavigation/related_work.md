@@ -23,6 +23,8 @@ Towards monocular vision based obstacle avoidance through deep reinforcement lea
 
 From perception to decision: A data-driven approach to end-to-end motion planning for autonomous ground robots \[2017, ICRA, Mark Pfeiffer\] \[[paper](https://arxiv.org/pdf/1609.07910.pdf)\]
 
+Domain randomization for transferring deep neural networks from simulation to the real world \[2017, IROS, Josh Tobin\] \[[Paper](https://arxiv.org/pdf/1703.06907.pdf)\]
+
 Self-Monitoring Navigation Agent via Auxiliary Progress Estimation \[2019, arxiv, Chih-Yao Ma\] \[[paper](https://arxiv.org/pdf/1901.03035.pdf)\]
 
 Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation \[2019, arxiv, Liyiming Ke\] \[[paper](https://arxiv.org/pdf/1903.02547.pdf)\]<br/>
