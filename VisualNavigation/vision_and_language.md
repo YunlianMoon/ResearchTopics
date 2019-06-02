@@ -58,7 +58,7 @@ Mapping instructions and visual observations to actions with reinforcement learn
 
 Vision-and-language navigation: Interpreting visually-grounded navigation instructions in real environments \[2018, CVPR, Peter Anderson\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Anderson_Vision-and-Language_Navigation_Interpreting_CVPR_2018_paper.pdf)\]<br/>
 `description: unseen environments`<br/>
-`method: ((instruction --> LSTM) + (image --> ResNet152) + (action --> NN)) --> attention --> LSTM --> imitation learning`<br/>
+`method: ((instruction --> LSTM) + (image --> ResNet152) + (action --> NN)) --> attention --> LSTM --> teacher-forcing/student-forcing`<br/>
 `environment: R2R`
 
 Scheduled policy optimization for natural language communication with intelligent agents \[2018, arxiv, Wenhan Xiong\] \[[Paper](https://arxiv.org/pdf/1806.06187.pdf)\]<br/>
