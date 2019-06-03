@@ -6,7 +6,7 @@
   - <a href="#image">image</a>
     - <a href="#same">same envirionment/task for evaluation</a>
     - <a href="#unseen">generalization</a>
-  - <a href="#VLN">vision and language</a>
+  - <a href="https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/vision_and_language.md">vision and language</a>
 
 ### Survey
 
