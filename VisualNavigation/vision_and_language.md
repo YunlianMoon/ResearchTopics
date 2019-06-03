@@ -3,7 +3,7 @@
 ### Table of Contents
 - Survey
 - Paper
-  - <a href="#image">image</a>
+  - <a href="https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/image.md">image</a>
   - <a href="#VLN">vision and language</a>
     - <a href="#PG">point goal</a>
     - <a href="#OG">object goal</a>
