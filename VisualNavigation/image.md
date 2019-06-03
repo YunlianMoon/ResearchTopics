@@ -1,16 +1,11 @@
 # Visual Navigation using DRL
 
 ### Table of Contents
-- Survey
 - Paper
   - <a href="#image">image</a>
     - <a href="#same">same envirionment/task for evaluation</a>
     - <a href="#unseen">generalization</a>
   - <a href="https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/vision_and_language.md">vision and language</a>
-
-### Survey
-
-[Dhiman, Vikas, et al. "A critical investigation of deep reinforcement learning for navigation." arXiv preprint arXiv:1802.02274 (2018).](https://arxiv.org/pdf/1802.02274.pdf)
 
 ### Paper
 
