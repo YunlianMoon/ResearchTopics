@@ -1,6 +1,6 @@
 # Language
 
-Table of Contents
+#### Table of Contents
  - Word
    - dd
  - Word Squence
