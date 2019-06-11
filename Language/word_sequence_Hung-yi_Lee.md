@@ -35,7 +35,7 @@
 #### deep structured semantic model
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/bag_of_word.png" width="32%" />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/bag_of_word.png" width="45%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/semantic_embedding.png" width="15%" /><br />
   Bag of Word/Semantic Embedding
