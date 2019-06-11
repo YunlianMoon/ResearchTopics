@@ -14,6 +14,7 @@
  - Word Squence
    - deep structured semantic model (DSSM)
      - bag of word
+     - semantic embedding
    - recursive deep model
    - paragraph vector
  
@@ -40,6 +41,15 @@
   <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/semantic_embedding.png" width="13%" /><br />
   Bag of Word/Semantic Embedding
 </div>
+
+#### recursive deep model
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/setiment_analysis.png" width="25%" /><br />
+  Sentiment Analysis
+</div>
+
+
 
 
 
