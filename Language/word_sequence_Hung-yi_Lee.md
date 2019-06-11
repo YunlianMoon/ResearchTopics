@@ -12,6 +12,10 @@
    - dimension of 'other'
    - word hashing
  - Word Squence
+   - deep structured semantic model (DSSM)
+     - bag of word
+   - recursive deep model
+   - paragraph vector
  
 #### word
 
@@ -25,5 +29,9 @@
   <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="22%" /><br />
   Word Vector/Word Embedding
 </div>
+
+#### word sequence
+
+
 
 
