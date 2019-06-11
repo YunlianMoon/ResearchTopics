@@ -45,7 +45,7 @@
 #### recursive deep model
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/setiment_analysis.png" width="25%" /><br />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/setiment_analysis.png" width="35%" /><br />
   Sentiment Analysis
 </div>
 
