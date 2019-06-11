@@ -32,6 +32,17 @@
 
 #### word sequence
 
+#### deep structured semantic model
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/bag_of_word.png" width="22%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/semantic_embedding.png" width="22%" /><br />
+  Bag of Word/Semantic Embedding
+</div>
+
+
+
 
 
 
