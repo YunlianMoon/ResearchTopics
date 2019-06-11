@@ -49,6 +49,14 @@
   Sentiment Analysis
 </div>
 
+#### paragraph vector
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/paragraph_vector.png" width="35%" /><br />
+  Paragraph Vector
+</div>
+
+
 
 
 
