@@ -74,7 +74,7 @@ Look before you leap: Bridging model-free and model-based reinforcement learning
 Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation \[2018, arxiv, Xin Wang\] \[[paper](https://arxiv.org/pdf/1811.10092.pdf)\]<br/>
 `description: unseen environments`<br/>
 `reward: Extrinsic Reward (relative navigation distance/success) + Intrinsic Reward (instruction reconstruction)`<br/>
-`method: (textual instruction --> LSTM + (images --> CNN --> attention + action) --> LSTM) --> attention --> policy (imitation learning + REINFORCE)`<br/>
+`method: (textual instruction --> LSTM + (images --> ResNet152 --> attention + action) --> LSTM) --> attention --> policy (imitation learning + REINFORCE)`<br/>
 `environment: R2R`
 
 #### <a name="question">question</a>
