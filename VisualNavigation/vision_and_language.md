@@ -82,7 +82,7 @@ Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Visio
 Iqa: Visual question answering in interactive environments \[2018, CVPR, Daniel Gordon\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gordon_IQA_Visual_Question_CVPR_2018_paper.pdf)\]<br/>
 `description: unseen environments`<br/>
 `method: navigator + manipulator + detector + scanner + answerer`<br/>
-`method: (((image --> CNN) + action) --> GRU + question --> LSTM + semantic memory --> NN) --> NN --> policy (A3C)`<br/>
+`method: (((image --> CNN) + action) --> GRU + question --> LSTM + semantic memory --> CNN) --> FC --> policy (A3C)`<br/>
 `environment: AI2-THOR`
 
 Embodied question answering \[2018, CVPR, Abhishek Das\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w40/Das_Embodied_Question_Answering_CVPR_2018_paper.pdf)\]<br/>
