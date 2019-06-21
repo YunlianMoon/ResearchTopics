@@ -25,13 +25,13 @@ Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[
 `method: (image --> CNN) + additional inputs (velocity, action, reward) --> stacked LSTM --> policy (A3C) + auxiliary losses (depth prediction, loop closure detection)`<br/>
 `environment: DeepMind Lab`
 
-Reinforcement learning with unsupervised auxiliary tasks \[2016, arxiv, Max Jaderberg\] \[[paper](https://arxiv.org/pdf/1611.05397.pdf)\]<br/>
+Reinforcement learning with unsupervised auxiliary tasks \[2016, arxiv, Max Jaderberg\] \[[paper](https://arxiv.org/pdf/1611.05397.pdf)\] \[[Code](https://github.com/miyosuda/unreal)\]<br/>
 `method: image --> CNN --> LSTM --> policy + auxiliary losses`<br/>
 `environment: Labyrinth`
 
 Training agent for first-person shooter game with actor-critic curriculum learning \[2017, ICLR, Yuxin Wu\] \[[paper](https://openreview.net/pdf?id=Hk3mPK5gg)\]
 
-Deepnav: Learning to navigate large cities \[2017, CVPR, Samarth Brahmbhatt\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Brahmbhatt_DeepNav_Learning_to_CVPR_2017_paper.pdf)\]<br/>
+Deepnav: Learning to navigate large cities \[2017, CVPR, Samarth Brahmbhatt\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Brahmbhatt_DeepNav_Learning_to_CVPR_2017_paper.pdf)\] \[[Code](https://github.com/samarth-robo/deepnav_cvpr17)\]<br/>
 `method: supervised learning`<br/>
 `environment: Google Street View`
 
@@ -49,11 +49,11 @@ Self-supervised deep reinforcement learning with generalized computation graphs 
 
 #### <a name="unseen">generalization</a>
 
-Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\]<br/>
+Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\] \[[Code](https://github.com/junhyukoh/icml2016-minecraft)\]<br/>
 `method: image --> CNN --> LSTM --> Memory --> policy (DQN)`<br/>
 `environment: Minecraft`
 
-Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\]<br/>
+Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\] \[[Code](https://github.com/yushu-liu/icra2017-visual-navigation)\]<br/>
 `method: (image + target image) --> ResNet50 --> generic siamese layers --> scene-specific layers: policy (A3C)`<br/>
 `environment: AI2-THOR`
 
@@ -65,14 +65,14 @@ Neural map: Structured memory for deep reinforcement learning \[2017, arxiv, Emi
 `method: image --> CNN --> LSIM --> Memory --> policy (A3C)`<br/>
 `environment: 2D maze, VizDoom`
 
-Learning to navigate in cities without a map \[2018, NIPS, Piotr Mirowski\] \[[paper](https://papers.nips.cc/paper/7509-learning-to-navigate-in-cities-without-a-map.pdf)\]<br/>
+Learning to navigate in cities without a map \[2018, NIPS, Piotr Mirowski\] \[[paper](https://papers.nips.cc/paper/7509-learning-to-navigate-in-cities-without-a-map.pdf)\] \[[Code](https://github.com/deepmind/streetlearn)\]<br/>
 `method: (image --> CNN) + (goal description, reward, action) --> LSTM --> policy (A3C) + auxiliary losses`<br/>
 `environment: Google Street View`
 
-Zero-shot visual imitation \[2018, CVPR, Deepak Pathak\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w40/Pathak_Zero-Shot_Visual_Imitation_CVPR_2018_paper.pdf)\]<br/>
+Zero-shot visual imitation \[2018, CVPR, Deepak Pathak\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w40/Pathak_Zero-Shot_Visual_Imitation_CVPR_2018_paper.pdf)\] \[[Code](https://github.com/pathak22/zeroshot-imitation)\]<br/>
 `method: ((image + goal image) --> CNN) + action --> LSTM --> policy (imitation learing) + auxiliary losses`<br/>
 `environment: VizDoom`
 
-Unsupervised predictive memory in a goal-directed agent \[2018, arxiv, Greg Wayne\] \[[paper](https://arxiv.org/pdf/1803.10760.pdf)\]<br/>
+Unsupervised predictive memory in a goal-directed agent \[2018, arxiv, Greg Wayne\] \[[paper](https://arxiv.org/pdf/1803.10760.pdf)\] \[[Code](https://github.com/yosider/merlin)\]<br/>
 `method: image --> CNN --> LSTM --> Memory --> policy (A3C)`<br/>
 `environment: DeepMind Lab`
