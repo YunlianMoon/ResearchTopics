@@ -34,7 +34,7 @@ Zero-shot task generalization with multi-task deep reinforcement learning \[2017
 `method: `<br/>
 `environment: Minecraft`
 
-Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz Hermann\] \[[paper](https://arxiv.org/pdf/1706.06551.pdf)\]<br/>
+Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz Hermann\] \[[paper](https://arxiv.org/pdf/1706.06551.pdf)\] \[[code](https://github.com/dai-dao/Grounded-Language-Learning-in-Pytorch)\]<br/>
 `method: ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> policy (A3C) + autoencoder auxiliary task + language      prediction`<br/>
 `environment: DeepMind Lab`
 
@@ -79,13 +79,13 @@ Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Visio
 
 #### <a name="question">question</a>
 
-Iqa: Visual question answering in interactive environments \[2018, CVPR, Daniel Gordon\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gordon_IQA_Visual_Question_CVPR_2018_paper.pdf)\] \[[Code](https://github.com/danielgordon10/thor-iqa-cvpr-2018)\]<br/>
+Iqa: Visual question answering in interactive environments \[2018, CVPR, Daniel Gordon\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gordon_IQA_Visual_Question_CVPR_2018_paper.pdf)\] \[[code](https://github.com/danielgordon10/thor-iqa-cvpr-2018)\]<br/>
 `description: unseen environments`<br/>
 `method: navigator + manipulator + detector + scanner + answerer`<br/>
 `method: (((image --> CNN) + action) --> GRU + question --> LSTM + semantic memory --> CNN) --> FC --> policy (A3C)`<br/>
 `environment: AI2-THOR`
 
-Embodied question answering \[2018, CVPR, Abhishek Das\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w40/Das_Embodied_Question_Answering_CVPR_2018_paper.pdf)\] \[[Code](https://github.com/facebookresearch/EmbodiedQA)\]<br/>
+Embodied question answering \[2018, CVPR, Abhishek Das\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w40/Das_Embodied_Question_Answering_CVPR_2018_paper.pdf)\] \[[code](https://github.com/facebookresearch/EmbodiedQA)\]<br/>
 `description: unseen environments`<br/>
 `method: hierarchical model`<br/>
 `method: (image --> CNN + question --> LSTM) --> NN or LSTM --> policy (REINFORCE)`<br/>
