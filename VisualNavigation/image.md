@@ -26,7 +26,7 @@ Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[
 `environment: DeepMind Lab`
 
 Reinforcement learning with unsupervised auxiliary tasks \[2016, arxiv, Max Jaderberg\] \[[paper](https://arxiv.org/pdf/1611.05397.pdf)\] \[[code](https://github.com/miyosuda/unreal)\]<br/>
-`method: image --> CNN --> LSTM --> policy + auxiliary losses`<br/>
+`method: (image --> CNN + action + reward) --> LSTM --> policy + auxiliary losses`<br/>
 `environment: Labyrinth`
 
 Training agent for first-person shooter game with actor-critic curriculum learning \[2017, ICLR, Yuxin Wu\] \[[paper](https://openreview.net/pdf?id=Hk3mPK5gg)\]
