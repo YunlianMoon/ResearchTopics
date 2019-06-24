@@ -9,7 +9,7 @@ A deep compositional framework for human-like language acquisition in virtual en
 
 `description: Labyrinth`
 
-A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Chen Tessler\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14630/13950)\]
+A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Chen Tessler\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14630/13950)\]<br/>
 `description: Minecraft`
 
 Deepmind lab \[2016, arxiv, Charles Beattie\] \[[Paper](https://arxiv.org/pdf/1612.03801.pdf)\]<br/>
