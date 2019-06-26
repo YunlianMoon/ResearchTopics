@@ -26,10 +26,12 @@ Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[
 `environment: DeepMind Lab`
 
 Reinforcement learning with unsupervised auxiliary tasks \[2016, arxiv, Max Jaderberg\] \[[paper](https://arxiv.org/pdf/1611.05397.pdf)\] \[[code](https://github.com/miyosuda/unreal)\]<br/>
-`method: (image --> CNN + action + reward) --> LSTM --> policy (A3C) + auxiliary losses`<br/>
+`method: (image --> CNN + action + reward) --> FC --> LSTM --> policy (A3C) + auxiliary losses (Pixel Control, Reward Prediction, Value Function Replay)`<br/>
 `environment: Labyrinth`
 
-Training agent for first-person shooter game with actor-critic curriculum learning \[2017, ICLR, Yuxin Wu\] \[[paper](https://openreview.net/pdf?id=Hk3mPK5gg)\]
+Training agent for first-person shooter game with actor-critic curriculum learning \[2017, ICLR, Yuxin Wu\] \[[paper](https://openreview.net/pdf?id=Hk3mPK5gg)\]<br/>
+`method: images --> CNN --> FC --> policy (A3C) + reward shaping + curriculum learning (simple to hard)`<br/>
+`environment: VizDoom`
 
 Deepnav: Learning to navigate large cities \[2017, CVPR, Samarth Brahmbhatt\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Brahmbhatt_DeepNav_Learning_to_CVPR_2017_paper.pdf)\] \[[code](https://github.com/samarth-robo/deepnav_cvpr17)\]<br/>
 `method: supervised learning`<br/>
