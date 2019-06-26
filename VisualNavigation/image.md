@@ -47,9 +47,13 @@ Application of deep reinforcement learning in mobile robot path planning \[2017,
 
 One-shot reinforcement learning for robot navigation with interactive replay \[2017, arxiv, Jake Bruce\] \[[paper](https://arxiv.org/pdf/1711.10137.pdf)\]
 
+Clyde: A deep reinforcement learning DOOM playing agent \[2017, AAAI, Dino Stephen Ratcliffe\] \[[paper](https://www.aaai.org/ocs/index.php/WS/AAAIW17/paper/viewPaper/15130)\]
+
 Self-supervised deep reinforcement learning with generalized computation graphs for robot navigation \[2018, ICRA, Gregory Kahn\] \[[paper](https://arxiv.org/pdf/1709.10489.pdf)\]
 
 #### <a name="unseen">generalization</a>
+
+Learning to act by predicting the future \[2016, arxiv, Alexey Dosovitskiy\] \[[paper](https://arxiv.org/pdf/1611.01779.pdf)\]
 
 Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\] \[[code](https://github.com/junhyukoh/icml2016-minecraft)\]<br/>
 `method: image --> CNN --> LSTM --> Memory --> policy (DQN)`<br/>
