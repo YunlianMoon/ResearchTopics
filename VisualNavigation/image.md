@@ -29,6 +29,10 @@ Reinforcement learning with unsupervised auxiliary tasks \[2016, arxiv, Max Jade
 `method: (image --> CNN + action + reward) --> FC --> LSTM --> policy (A3C) + auxiliary losses (Pixel Control, Reward Prediction, Value Function Replay)`<br/>
 `environment: Labyrinth`
 
+One-shot reinforcement learning for robot navigation with interactive replay \[2017, arxiv, Jake Bruce\] \[[paper](https://arxiv.org/pdf/1711.10137.pdf)\]<br/>
+`method: images --> ResNet-50 --> FC --> FC --> LSTM --> FC --> policy (bootstrapped Q-learning/A2C/n-step Q-learning)`<br/>
+`environment: office`
+
 Training agent for first-person shooter game with actor-critic curriculum learning \[2017, ICLR, Yuxin Wu\] \[[paper](https://openreview.net/pdf?id=Hk3mPK5gg)\]<br/>
 `method: images --> CNN --> FC --> policy (A3C) + reward shaping + curriculum learning (simple to hard)`<br/>
 `environment: VizDoom`
@@ -68,10 +72,6 @@ Transfer deep reinforcement learning in 3d environments: An empirical study \[20
 Neural map: Structured memory for deep reinforcement learning \[2017, arxiv, Emilio Parisotto\] \[[paper](https://arxiv.org/pdf/1702.08360.pdf)\]<br/>
 `method: image --> CNN --> LSIM --> Memory --> policy (A3C)`<br/>
 `environment: 2D maze, VizDoom`
-
-One-shot reinforcement learning for robot navigation with interactive replay \[2017, arxiv, Jake Bruce\] \[[paper](https://arxiv.org/pdf/1711.10137.pdf)\]<br/>
-`method: `<br/>
-`environment: `
 
 Learning to navigate in cities without a map \[2018, NIPS, Piotr Mirowski\] \[[paper](https://papers.nips.cc/paper/7509-learning-to-navigate-in-cities-without-a-map.pdf)\] \[[code](https://github.com/deepmind/streetlearn)\]<br/>
 `method: (image --> CNN) + (goal description, reward, action) --> LSTM --> policy (A3C) + auxiliary losses`<br/>
