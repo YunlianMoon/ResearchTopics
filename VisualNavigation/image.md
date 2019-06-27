@@ -55,11 +55,14 @@ Self-supervised deep reinforcement learning with generalized computation graphs 
 
 #### <a name="unseen">generalization</a>
 
-Learning to act by predicting the future \[2016, arxiv, Alexey Dosovitskiy\] \[[paper](https://arxiv.org/pdf/1611.01779.pdf)\]
-
 Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\] \[[code](https://github.com/junhyukoh/icml2016-minecraft)\]<br/>
 `method: image --> CNN --> LSTM --> Memory --> policy (DQN)`<br/>
 `environment: Minecraft`
+
+Learning to act by predicting the future \[2016, arxiv, Alexey Dosovitskiy\] \[[paper](https://arxiv.org/pdf/1611.01779.pdf)\] \[[code](https://github.com/intel-isl/DirectFuturePrediction)\] <br/>
+`method: (images --> CNN + measurements --> FC + goal --> FC) --> (expectation --> FC + action --> FC) --> policy (DFP/DQN/A3C/DSR)`<br/>
+`environment: ViZDoom` <br/>
+code: \[[DQN](https://github.com/kuz/DeepMind-Atari-Deep-Q-Learner)\] \[[DSR](https://github.com/Ardavans/DSR)\] \[[A3C](https://github.com/muupan/async-rl)\]
 
 Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\] \[[code](https://github.com/yushu-liu/icra2017-visual-navigation)\]<br/>
 `method: (image + target image) --> ResNet50 --> generic siamese layers --> scene-specific layers: policy (A3C)`<br/>
