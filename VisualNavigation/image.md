@@ -53,10 +53,6 @@ Clyde: A deep reinforcement learning DOOM playing agent \[2017, AAAI, Dino Steph
 `method: image --> CNN --> FC --> LSTM --> policy (A3C)`<br/>
 `environment: VizDoom`
 
-Self-supervised deep reinforcement learning with generalized computation graphs for robot navigation \[2018, ICRA, Gregory Kahn\] \[[paper](https://arxiv.org/pdf/1709.10489.pdf)\] \[[code](https://github.com/gkahn13/gcg)\]<br/>
-`method: `<br/>
-`environment: `
-
 #### <a name="unseen">generalization</a>
 
 Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\] \[[code](https://github.com/junhyukoh/icml2016-minecraft)\]<br/>
