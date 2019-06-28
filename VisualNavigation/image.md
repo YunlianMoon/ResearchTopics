@@ -13,7 +13,7 @@
 
 #### <a name="same">same environment/task</a>
 
-Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[paper](https://arxiv.org/pdf/1606.02396.pdf)\]<br/>
+Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[paper](https://arxiv.org/pdf/1606.02396.pdf)\] \[[code](https://github.com/Ardavans/DSR)\]<br/>
 `method: image --> CNN --> successor representation (SR)`<br/>
 `environment: MazeBase gridworld, VizDoom`
 
