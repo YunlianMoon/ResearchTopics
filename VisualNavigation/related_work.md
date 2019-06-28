@@ -35,4 +35,10 @@ Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigat
 `method: not RL`<br/>
 `environment: R2R`
 
+### collison
+
+Self-supervised deep reinforcement learning with generalized computation graphs for robot navigation \[2018, ICRA, Gregory Kahn\] \[[paper](https://arxiv.org/pdf/1709.10489.pdf)\] \[[code](https://github.com/gkahn13/gcg)\]<br/>
+`method: ((images --> CNN --> FC) + (Actions --> FC)) --> LSTM --> FC --> (y+b)`<br/>
+`environment: `
+
 
