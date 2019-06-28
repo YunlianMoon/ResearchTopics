@@ -14,7 +14,7 @@
 #### <a name="OG">object goal</a>
 
 Visual semantic planning using deep successor representations \[2017, ICCV, Yuke Zhu\] \[[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Visual_Semantic_Planning_ICCV_2017_paper.pdf)\]<br/>
-`method: image + action --> CNN --> successor representation (SR)`<br/>
+`method: (image --> CNN + action) --> successor representation (SR)`<br/>
 `environment: AI2-THOR`
 
 Visual representations for semantic target driven navigation \[2018, arxiv, Arsalan Mousavian\] \[[paper](https://arxiv.org/pdf/1805.06066.pdf)\]<br/>
@@ -23,7 +23,7 @@ Visual representations for semantic target driven navigation \[2018, arxiv, Arsa
 `environment: SUNCG, AVD`
 
 Visual semantic navigation using scene priors \[2018, arxiv, Wei Yang\] \[[paper](https://arxiv.org/pdf/1810.06543.pdf)\]<br/>
-`method: ((4 history images --> ResNet50) + (goal --> word embedding) + (graph knowledge --> GCN)) --> NN --> policy (A3C)`<br/>
+`method: ((images --> ResNet50) + (goal --> word embedding) + (graph knowledge --> GCN)) --> NN --> policy (A3C)`<br/>
 `environment: AI2-THOR`
 
 Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\]<br/>
@@ -35,12 +35,12 @@ Zero-shot task generalization with multi-task deep reinforcement learning \[2017
 `environment: Minecraft`
 
 Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz Hermann\] \[[paper](https://arxiv.org/pdf/1706.06551.pdf)\] \[[code](https://github.com/dai-dao/Grounded-Language-Learning-in-Pytorch)\]<br/>
-`method: ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> policy (A3C) + autoencoder auxiliary task + language      prediction`<br/>
+`method: ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> (policy (A3C) + autoencoder auxiliary task + language      prediction)`<br/>
 `environment: DeepMind Lab`
 
 Gated-attention architectures for task-oriented language grounding \[2018, AAAI, Devendra Singh Chaplot\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17425/16578)\]<br/>
 `description: unseen instructions/maps`<br/>
-`method: ((image --> CNN) + (text instruction --> GRU)) --> attention --> NN --> LSTM --> NN --> policy (A3C) + imitation learning`<br/>
+`method: ((image --> CNN) + (text instruction --> GRU)) --> attention --> NN --> LSTM --> NN --> (policy (A3C) + imitation learning)`<br/>
 `environment: ViZDoom`
 
 #### <a name="AG">area goal</a>
