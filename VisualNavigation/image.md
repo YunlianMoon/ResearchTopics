@@ -49,7 +49,9 @@ Application of deep reinforcement learning in mobile robot path planning \[2017,
 `method: image --> CNN --> DQN`<br/>
 `environment: DeepMind Lab`
 
-Clyde: A deep reinforcement learning DOOM playing agent \[2017, AAAI, Dino Stephen Ratcliffe\] \[[paper](https://www.aaai.org/ocs/index.php/WS/AAAIW17/paper/viewPaper/15130)\]
+Clyde: A deep reinforcement learning DOOM playing agent \[2017, AAAI, Dino Stephen Ratcliffe\] \[[paper](https://www.aaai.org/ocs/index.php/WS/AAAIW17/paper/viewPaper/15130)\]<br/>
+`method: image --> CNN --> FC --> LSTM --> policy (A3C)`<br/>
+`environment: VizDoom`
 
 Self-supervised deep reinforcement learning with generalized computation graphs for robot navigation \[2018, ICRA, Gregory Kahn\] \[[paper](https://arxiv.org/pdf/1709.10489.pdf)\]
 
