@@ -17,7 +17,7 @@ Visual semantic planning using deep successor representations \[2017, ICCV, Yuke
 `method: (image --> CNN + action) --> successor representation (SR)`<br/>
 `environment: AI2-THOR`
 
-Visual representations for semantic target driven navigation \[2018, arxiv, Arsalan Mousavian\] \[[paper](https://arxiv.org/pdf/1805.06066.pdf)\]<br/>
+Visual representations for semantic target driven navigation \[2018, arxiv, Arsalan Mousavian\] \[[paper](https://arxiv.org/pdf/1805.06066.pdf)\] \[[code](https://github.com/tensorflow/models/tree/master/research/cognitive_planning)\]<br/>
 `description: reward (distance)`<br/>
 `method: ((image --> ResNet50) + target (one-hot) + action + success binary indicator (colison) + object detection + semantic segmentation + depth image) --> CNN --> LSTM --> NN --> policy (imitation learning + DQN)`<br/>
 `environment: SUNCG, AVD`
@@ -38,7 +38,7 @@ Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz He
 `method: ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> (policy (A3C) + autoencoder auxiliary task + language      prediction)`<br/>
 `environment: DeepMind Lab`
 
-Gated-attention architectures for task-oriented language grounding \[2018, AAAI, Devendra Singh Chaplot\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17425/16578)\]<br/>
+Gated-attention architectures for task-oriented language grounding \[2018, AAAI, Devendra Singh Chaplot\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17425/16578)\] \[[code](https://github.com/devendrachaplot/DeepRL-Grounding)\]<br/>
 `description: unseen instructions/maps`<br/>
 `method: ((image --> CNN) + (text instruction --> GRU)) --> attention --> NN --> LSTM --> NN --> (policy (A3C) + imitation learning)`<br/>
 `environment: ViZDoom`
@@ -52,7 +52,7 @@ Building generalizable agents with a realistic and rich 3d environment \[2018, a
 
 #### <a name="instruction">instruction</a>
 
-Mapping instructions and visual observations to actions with reinforcement learning \[2017, arxiv, Dipendra Misra\] \[[paper](https://arxiv.org/pdf/1704.08795.pdf)\]<br/>
+Mapping instructions and visual observations to actions with reinforcement learning \[2017, arxiv, Dipendra Misra\] \[[paper](https://arxiv.org/pdf/1704.08795.pdf)\] \[[code](https://github.com/lil-lab/blocks)\]<br/>
 `method: ((image --> CNN) + (instruction --> LSTM) + (action --> NN)) --> NN --> policy (policy gradient)`<br/>
 `environment: block world`
 
