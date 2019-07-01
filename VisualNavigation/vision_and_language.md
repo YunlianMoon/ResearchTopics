@@ -14,24 +14,19 @@
 #### <a name="OG">object goal</a>
 
 Visual semantic planning using deep successor representations \[2017, ICCV, Yuke Zhu\] \[[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Visual_Semantic_Planning_ICCV_2017_paper.pdf)\]<br/>
-`method: (image --> CNN + action) --> successor representation (SR)`<br/>
+`method: (state(one-hot) + (image --> CNN) + (action(one-hot) --> FC) + (action augment(one-hot) --> FC)) --> FC --> (state-action feature + successor feature + reward predictor) --> (reward + Q value)`<br/>
 `environment: AI2-THOR`
 
-Visual representations for semantic target driven navigation \[2018, arxiv, Arsalan Mousavian\] \[[paper](https://arxiv.org/pdf/1805.06066.pdf)\] \[[code](https://github.com/tensorflow/models/tree/master/research/cognitive_planning)\]<br/>
-`description: reward (distance)`<br/>
-`method: ((image --> ResNet50) + target (one-hot) + action + success binary indicator (colison) + object detection + semantic segmentation + depth image) --> CNN --> LSTM --> NN --> policy (imitation learning + DQN)`<br/>
-`environment: SUNCG, AVD`
-
-Visual semantic navigation using scene priors \[2018, arxiv, Wei Yang\] \[[paper](https://arxiv.org/pdf/1810.06543.pdf)\]<br/>
-`method: ((images --> ResNet50) + (goal --> word embedding) + (graph knowledge --> GCN)) --> NN --> policy (A3C)`<br/>
+Visual semantic navigation using scene priors \[2018, arxiv, Wei Yang\] \[[paper](https://arxiv.org/pdf/1810.06543.pdf)\] \[[video](incorporating)\]<br/>
+`method: ((images --> ResNet50 --> FC) + (goal --> word embedding --> FC) + (graph knowledge --> GCN --> FC)) --> FC --> policy (A3C)`<br/>
 `environment: AI2-THOR`
 
 Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\]<br/>
-`method: ((image --> CNN) + (textual instruction) --> LSTM) --> NN --> LSTM --> policy (A3C)`<br/>
+`method: ((image --> CNN) + (textual instruction) --> LSTM) --> FC --> LSTM --> policy (A3C)`<br/>
 `environment: DeepMind Lab`
 
-Zero-shot task generalization with multi-task deep reinforcement learning \[2017, ICML, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1706.05064.pdf)\]<br/>
-`method: `<br/>
+Zero-shot task generalization with multi-task deep reinforcement learning \[2017, ICML, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1706.05064.pdf)\] \[[video](https://sites.google.com/a/umich.edu/junhyuk-oh/task-generalization)\]<br/>
+`method: (((instructions + image) --> meta controller (CNN + LSTM)) + image) --> paremetrirized sill (CNN + LSTM) --> policy (A2C) + termination prediction`<br/>
 `environment: Minecraft`
 
 Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz Hermann\] \[[paper](https://arxiv.org/pdf/1706.06551.pdf)\] \[[code](https://github.com/dai-dao/Grounded-Language-Learning-in-Pytorch)\]<br/>
