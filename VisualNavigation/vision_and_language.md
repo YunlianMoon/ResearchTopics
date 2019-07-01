@@ -35,7 +35,7 @@ Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz He
 
 Gated-attention architectures for task-oriented language grounding \[2018, AAAI, Devendra Singh Chaplot\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17425/16578)\] \[[code](https://github.com/devendrachaplot/DeepRL-Grounding)\]<br/>
 `description: unseen instructions/maps`<br/>
-`method: ((image --> CNN) + (text instruction --> GRU)) --> attention --> NN --> LSTM --> NN --> (policy (A3C) + imitation learning)`<br/>
+`method: ((image --> CNN) + (text instruction --> GRU --> FC --> attention vector)) --> FC --> LSTM --> (policy (A3C) + imitation learning (behavioral cloning/DAgger))`<br/>
 `environment: ViZDoom`
 
 #### <a name="AG">area goal</a>
