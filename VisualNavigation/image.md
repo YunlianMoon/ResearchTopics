@@ -14,7 +14,7 @@
 #### <a name="same">same environment/task</a>
 
 Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[paper](https://arxiv.org/pdf/1606.02396.pdf)\] \[[code](https://github.com/Ardavans/DSR)\]<br/>
-`method: image --> CNN --> successor representation (SR)`<br/>
+`method: image --> CNN --> --> FC --> (((w)FC --> reward expect) + (ICNN --> observation reconstruction) + (FC --> successor representation))`<br/>
 `environment: MazeBase gridworld, VizDoom`
 
 A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Chen Tessler\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14630/13950)\]<br/>
