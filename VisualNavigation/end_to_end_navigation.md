@@ -8,7 +8,7 @@
 ### <a name="VLN">vision and language</a>
 
 #### <a name="semantic">semantic</a>
-Visual representations for semantic target driven navigation \[2018, arxiv, Arsalan Mousavian\] \[[paper](https://arxiv.org/pdf/1805.06066.pdf)\] \[[code](https://github.com/tensorflow/models/tree/master/research/cognitive_planning)\]<br/>
+Visual representations for semantic target driven navigation \[2018, ECCV, Arsalan Mousavian\] \[[paper](https://arxiv.org/pdf/1805.06066.pdf)\] \[[code](https://github.com/tensorflow/models/tree/master/research/cognitive_planning)\]<br/>
 `topic: object goal`
 `description: reward (distance)`<br/>
 `method: (((((object detection + semantic segmentation + depth image) --> CNN) + (image --> ResNet50)) --> FC) + goal (one-hot) + action + success binary indicator (colison)) --> LSTM --> FC --> cost v`<br/>
