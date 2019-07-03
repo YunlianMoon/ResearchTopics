@@ -37,10 +37,6 @@ Training agent for first-person shooter game with actor-critic curriculum learni
 `method: images --> CNN --> FC --> (policy (A3C) + reward shaping + curriculum learning (simple to hard))`<br/>
 `environment: VizDoom`
 
-Deepnav: Learning to navigate large cities \[2017, CVPR, Samarth Brahmbhatt\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Brahmbhatt_DeepNav_Learning_to_CVPR_2017_paper.pdf)\] \[[code](https://github.com/samarth-robo/deepnav_cvpr17)\]<br/>
-`method: supervised learning`<br/>
-`environment: Google Street View`
-
 A deep Q network for robotic planning from image \[2017, ICARM, Jianhui Han\] \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8273235)\]<br/>
 `method: image --> CNN --> DQN`<br/>
 `environment: Gazebo`
