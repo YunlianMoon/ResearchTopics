@@ -112,12 +112,37 @@ Efficient lifelong learning with a-gem \[2018, arxiv, Arslan Chaudhry\] \[[paper
 
 ### Model Expansion
 
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  Progressive Neural Networks
+</div>
 
+Progressive neural networks \[2016, arxiv, Andrei A Rusu\] \[[paper](https://arxiv.org/pdf/1606.04671.pdf?)\]
 
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  Expert Gate
+</div>
 
+Expert gate: Lifelong learning with a network of experts \[2017, CVPR, Rahaf Aljundi\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Aljundi_Expert_Gate_Lifelong_CVPR_2017_paper.pdf)\]
 
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  Net2Net
+</div>
 
+Net2net: Accelerating learning via knowledge transfer \[2015, arxiv, Tianqi  Chen,\] \[[paper](https://arxiv.org/pdf/1511.05641.pdf)\]
 
+On Training Recurrent Neural Networks for Lifelong Learning \[2018, arxiv, Shagun Sodhani\] \[[paper](https://arxiv.org/pdf/1811.07017.pdf)\]
+
+### Curriculum Learning
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  Curriculum Learning
+</div>
+
+Taskonomy: Disentangling task transfer learning \[2018, CVPR, Amir R Zamir\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zamir_Taskonomy_Disentangling_Task_CVPR_2018_paper.pdf)\]
 
 
 
