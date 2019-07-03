@@ -84,6 +84,36 @@ Learning without forgetting \[2017, TPAMI, Zhizhong Li\] \[[paper](https://arxiv
 
 icarl: Incremental classifier and representation learning \[2017, CVPR, Sylvestre-Alvise Rebuffi\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Rebuffi_iCaRL_Incremental_Classifier_CVPR_2017_paper.pdf)\]
 
+### Knowledge Transfer
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  Life-Long v.s. Transfer
+</div>
+
+<br/>
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  Evaluation
+</div>
+
+#### Gradient Episodic Memory (GEM)
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  Gradient Episodic Memory
+</div>
+
+Gradient episodic memory for continual learning \[2017, NIPS, David Lopez-Paz\] \[[paper](https://papers.nips.cc/paper/7225-gradient-episodic-memory-for-continual-learning.pdf)\]
+
+Efficient lifelong learning with a-gem \[2018, arxiv, Arslan Chaudhry\] \[[paper](https://arxiv.org/pdf/1812.00420.pdf)\]
+
+### Model Expansion
+
+
+
 
 
 
