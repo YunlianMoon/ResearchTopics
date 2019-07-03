@@ -14,7 +14,7 @@
 #### <a name="same">same environment/task</a>
 
 Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[paper](https://arxiv.org/pdf/1606.02396.pdf)\] \[[code](https://github.com/Ardavans/DSR)\]<br/>
-`method: image --> CNN --> --> FC --> (((w)FC --> reward expect) + (ICNN --> observation reconstruction) + (FC --> successor representation))`<br/>
+`method: image --> CNN --> --> FC --> ((FC --> w --> reward expect) + (deCNN --> observation reconstruction) + (FC --> successor representation))`<br/>
 `environment: MazeBase gridworld, VizDoom`
 
 A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Chen Tessler\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14630/13950)\]<br/>
@@ -73,7 +73,7 @@ Neural map: Structured memory for deep reinforcement learning \[2017, arxiv, Emi
 `environment: 2D maze, VizDoom`
 
 Deep reinforcement learning with successor features for navigation across similar environments \[2017, IROS, Jingwei Zhang\] \[[paper](https://arxiv.org/pdf/1612.05533.pdf)\] \[[video](https://youtu.be/WcCcdkhgjdY)\]<br/>
-`method: images --> CNN --> FC --> ((FC --> W --> R) + (deCNN --> input construction) + (successor features) + (task map))`<br/>
+`method: images --> CNN --> FC --> ((FC --> W --> R) + (deCNN --> input construction) + (FC --> successor features) + (FC --> task map))`<br/>
 `environment: maze/real
 
 Learning to navigate in cities without a map \[2018, NIPS, Piotr Mirowski\] \[[paper](https://papers.nips.cc/paper/7509-learning-to-navigate-in-cities-without-a-map.pdf)\] \[[code](https://github.com/deepmind/streetlearn)\]<br/>
