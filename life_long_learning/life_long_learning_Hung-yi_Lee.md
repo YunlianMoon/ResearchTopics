@@ -8,20 +8,66 @@
 Continuous Learning, Never Ending Learning, Incremental Learning
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="22%" /><br />
-  Word Vector/Word Embedding
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  Life Long Learning (LLL)
 </div>
 
 ### Knowledge Retention
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="22%" />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_2.png" width="22%" />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_2.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_3.png" width="22%" />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_3.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="22%" /><br />
-  Word Vector/Word Embedding
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
+  Example
 </div>
+
+Catastrophic Forgetting
+
+Towards ai-complete question answering: A set of prerequisite toy tasks \[2015, arxiv, Jason Weston\] \[[paper](https://arxiv.org/pdf/1502.05698.pdf)\]
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  Multi-task training
+</div>
+
+#### Elastic Weight Consolidation (EWC)
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_2.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_3.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
+  Example
+</div>
+
+Overcoming catastrophic forgetting in neural networks \[2017, PNAS, James Kirkpatrick\] \[[paper](https://www.pnas.org/content/114/13/3521.full)\]
+
+#### Synaptic Intelligence (SI)
+
+Continual learning through synaptic intelligence \[2017, ICML, Friedemann Zenke\] \[[paper](https://arxiv.org/pdf/1703.04200.pdf)\]
+
+#### Memory Aware Synapses (MAS)
+
+Special part: Do not need labelled data
+
+Memory aware synapses: Learning what (not) to forget \[2018, CVPR, Rahaf Aljundi\] \[[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Rahaf_Aljundi_Memory_Aware_Synapses_ECCV_2018_paper.pdf)\]
+
+
+
+
+
+
+
+
 
