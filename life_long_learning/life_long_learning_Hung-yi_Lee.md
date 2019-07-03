@@ -63,6 +63,27 @@ Special part: Do not need labelled data
 
 Memory aware synapses: Learning what (not) to forget \[2018, CVPR, Rahaf Aljundi\] \[[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Rahaf_Aljundi_Memory_Aware_Synapses_ECCV_2018_paper.pdf)\]
 
+#### Generating Data
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  Generating Data
+</div>
+
+Continual learning with deep generative replay \[2017, NIPS, Hanul Shin\] \[[paper](http://papers.nips.cc/paper/6892-continual-learning-with-deep-generative-replay.pdf)\]
+
+Fearnet: Brain-inspired model for incremental learning \[2017, arxiv, Ronald Kemker\] \[[paper](https://arxiv.org/pdf/1711.10563.pdf)\]
+
+#### Adding New Classes
+
+- Learning without forgetting (LwF)
+
+Learning without forgetting \[2017, TPAMI, Zhizhong Li\] \[[paper](https://arxiv.org/pdf/1606.09282)\]
+
+- iCaRL: Incremental Classifier and Representation Learning
+
+icarl: Incremental classifier and representation learning \[2017, CVPR, Sylvestre-Alvise Rebuffi\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Rebuffi_iCaRL_Incremental_Classifier_CVPR_2017_paper.pdf)\]
+
 
 
 
