@@ -49,8 +49,6 @@ Clyde: A deep reinforcement learning DOOM playing agent \[2017, AAAI, Dino Steph
 `method: image --> CNN --> FC --> LSTM --> policy (A3C)`<br/>
 `environment: VizDoom`
 
-Deep reinforcement learning with successor features for navigation across similar environments \[2017, IROS, Jingwei Zhang\] \[[paper](https://arxiv.org/pdf/1612.05533.pdf)\]
-
 #### <a name="unseen">generalization</a>
 
 Control of memory, active perception, and action in minecraft \[2016, ICML, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\] \[[code](https://github.com/junhyukoh/icml2016-minecraft)\] \[[video](https://sites.google.com/a/umich.edu/junhyuk-oh/icml2016-minecraft)\]<br/>
@@ -73,6 +71,10 @@ Transfer deep reinforcement learning in 3d environments: An empirical study \[20
 Neural map: Structured memory for deep reinforcement learning \[2017, arxiv, Emilio Parisotto\] \[[paper](https://arxiv.org/pdf/1702.08360.pdf)\]<br/>
 `method: image --> CNN --> LSIM --> Memory --> policy (A3C)`<br/>
 `environment: 2D maze, VizDoom`
+
+Deep reinforcement learning with successor features for navigation across similar environments \[2017, IROS, Jingwei Zhang\] \[[paper](https://arxiv.org/pdf/1612.05533.pdf)\] \[[video](https://youtu.be/WcCcdkhgjdY)\]<br/>
+`method: images --> CNN --> FC --> ((FC --> W --> R) + (deCNN --> input construction) + (successor features) + (task map))`<br/>
+`environment: maze/real
 
 Learning to navigate in cities without a map \[2018, NIPS, Piotr Mirowski\] \[[paper](https://papers.nips.cc/paper/7509-learning-to-navigate-in-cities-without-a-map.pdf)\] \[[code](https://github.com/deepmind/streetlearn)\]<br/>
 `method: ((image --> CNN) + (goal description, reward, action)) --> LSTM --> (policy (A3C) + auxiliary losses)`<br/>
