@@ -2,10 +2,12 @@
 
 - Reference
   - [Machine Learning (2019,Spring)](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html)
+- Contents
+  - Knowledge Retention
+  - Knowledge Transfer
+  - Model Expansion
   
-\[[link](https://www.pearsonlearned.com/lifelong-learning-will-help-workers-navigate-future-work/)\]
-
-Continuous Learning, Never Ending Learning, Incremental Learning
+Continuous Learning, Never Ending Learning, Incremental Learning \[[link](https://www.pearsonlearned.com/lifelong-learning-will-help-workers-navigate-future-work/)\]
 
 <div align=center>
   <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
