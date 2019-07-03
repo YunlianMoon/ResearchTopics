@@ -1,9 +1,16 @@
 # End to End Visual Navigation
 
 ### Table of Contents
+- <a href="#image">image</a>
 - <a href="#VLN">vision and language</a>
   - <a href="#semantic">semantic</a>
   - <a href="#instruction">instruction</a>
+  
+### <a name="image">image</a>
+
+Deepnav: Learning to navigate large cities \[2017, CVPR, Samarth Brahmbhatt\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Brahmbhatt_DeepNav_Learning_to_CVPR_2017_paper.pdf)\] \[[code](https://github.com/samarth-robo/deepnav_cvpr17)\]<br/>
+`method: image/images --> VGG 16 --> FC --> distance/action(A* search)`<br/>
+`environment: Google Street View`
 
 ### <a name="VLN">vision and language</a>
 
