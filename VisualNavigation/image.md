@@ -53,6 +53,8 @@ Clyde: A deep reinforcement learning DOOM playing agent \[2017, AAAI, Dino Steph
 `method: image --> CNN --> FC --> LSTM --> policy (A3C)`<br/>
 `environment: VizDoom`
 
+Deep reinforcement learning with successor features for navigation across similar environments \[2017, IROS, Jingwei Zhang\] \[[paper](https://arxiv.org/pdf/1612.05533.pdf)\]
+
 #### <a name="unseen">generalization</a>
 
 Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\] \[[code](https://github.com/junhyukoh/icml2016-minecraft)\] \[[video](https://sites.google.com/a/umich.edu/junhyuk-oh/icml2016-minecraft)\]<br/>
