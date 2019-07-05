@@ -35,7 +35,7 @@ One-shot reinforcement learning for robot navigation with interactive replay \[2
 
 Training agent for first-person shooter game with actor-critic curriculum learning \[2017, ICLR, Yuxin Wu\] \[[paper](https://openreview.net/pdf?id=Hk3mPK5gg)\]<br/>
 `method: images --> CNN --> FC --> (policy (A3C) + reward shaping + curriculum learning (simple to hard))`<br/>
-`architecture: C7x7x32s2 C7x7x64s2 MP3x3s2 C3x3x128 MP3x3s2 C3x3x192 FC1024`
+`architecture: C7x7x32s2 C7x7x64s2 MP3x3s2 C3x3x128 MP3x3s2 C3x3x192 FC1024`<br/>
 `environment: VizDoom`
 
 A deep Q network for robotic planning from image \[2017, ICARM, Jianhui Han\] \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8273235)\]<br/>
