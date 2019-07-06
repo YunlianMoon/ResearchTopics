@@ -3,10 +3,10 @@
 ### Table of Contents
 - Survey
 - Paper
-  - <a href="#image">image</a>
+  - [image](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/image.md)
     - <a href="#same">seen envirionment/task</a>
     - <a href="#unseen">generalization</a>
-  - <a href="#VLN">vision and language</a>
+  - [vision and language](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/vision_and_language.md)
     - <a href="#PG">point goal</a>
     - <a href="#OB">object goal</a>
     - <a href="#AG">area goal</a>
