@@ -15,6 +15,7 @@
 
 Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[paper](https://arxiv.org/pdf/1606.02396.pdf)\] \[[code](https://github.com/Ardavans/DSR)\]<br/>
 `method: image --> CNN --> --> FC --> ((FC --> w --> reward expect) + (deCNN --> observation reconstruction) + (FC --> successor representation))`<br/>
+`architecture: C8x8x32 C4x4x64 C3x3x64 FC512`
 `environment: MazeBase gridworld, VizDoom`
 
 A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Chen Tessler\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14630/13950)\]<br/>
