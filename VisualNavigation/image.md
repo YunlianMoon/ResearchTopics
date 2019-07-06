@@ -15,7 +15,7 @@
 
 Deep successor reinforcement learning \[2016, arxiv, Tejas D. Kulkarni\] \[[paper](https://arxiv.org/pdf/1606.02396.pdf)\] \[[code](https://github.com/Ardavans/DSR)\]<br/>
 `method: image --> CNN --> --> FC --> ((FC --> w --> reward expect) + (deCNN --> observation reconstruction) + (FC --> successor representation))`<br/>
-`architecture: C8x8x32 C4x4x64 C3x3x64 FC512`
+`architecture: C8x8x32 C4x4x64 C3x3x64 FC512`<br/>
 `environment: MazeBase gridworld, VizDoom`
 
 A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Chen Tessler\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14630/13950)\]<br/>
@@ -49,12 +49,14 @@ Application of deep reinforcement learning in mobile robot path planning \[2017,
 
 Clyde: A deep reinforcement learning DOOM playing agent \[2017, AAAI, Dino Stephen Ratcliffe\] \[[paper](https://www.aaai.org/ocs/index.php/WS/AAAIW17/paper/viewPaper/15130)\]<br/>
 `method: image --> CNN --> FC --> LSTM --> policy (A3C)`<br/>
+`architecture: C8x8x16s4 MP2x2 C4x4x32s2 MP2X2 C3X3X64s1 flatten FC 512LSTM`<br/>
 `environment: VizDoom`
 
 #### <a name="unseen">generalization</a>
 
 Control of memory, active perception, and action in minecraft \[2016, ICML, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\] \[[code](https://github.com/junhyukoh/icml2016-minecraft)\] \[[video](https://sites.google.com/a/umich.edu/junhyuk-oh/icml2016-minecraft)\]<br/>
 `method: image --> CNN --> LSTM --> Memory --> policy (DQN)`<br/>
+`architecture: C4X4X32s2p1 C4X4X64s2p1`<br/>
 `environment: Minecraft`
 
 Learning to act by predicting the future \[2016, arxiv, Alexey Dosovitskiy\] \[[paper](https://arxiv.org/pdf/1611.01779.pdf)\] \[[code](https://github.com/intel-isl/DirectFuturePrediction)\] <br/>
