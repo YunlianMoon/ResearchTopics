@@ -23,7 +23,7 @@ A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Che
 `environment: Minecraft`
 
 Learning to navigate in complex environments \[2016, arxiv, Piotr Mirowski\] \[[paper](https://arxiv.org/pdf/1611.03673.pdf)\] \[[code](https://github.com/tgangwani/GA3C-DeepNavigation)\]<br/>
-`method: (image --> CNN) + additional inputs (velocity, action, reward) --> stacked LSTM --> (policy (A3C) + auxiliary losses (depth prediction, loop closure detection))` <br/>
+`method: (image (84*84*3) --> CNN) + additional inputs (velocity, action, reward) --> stacked LSTM --> (policy (A3C) + auxiliary losses (depth prediction, loop closure detection))` <br/>
 `environment: DeepMind Lab`
 
 Reinforcement learning with unsupervised auxiliary tasks \[2016, arxiv, Max Jaderberg\] \[[paper](https://arxiv.org/pdf/1611.05397.pdf)\] \[[code](https://github.com/miyosuda/unreal)\]<br/>
