@@ -59,7 +59,7 @@ Control of memory, active perception, and action in minecraft \[2016, ICML, Junh
 `architecture: C4X4X32s2p1 C4X4X64s2p1`<br/>
 `environment: Minecraft`
 
-Learning to act by predicting the future \[2016, arxiv, Alexey Dosovitskiy\] \[[paper](https://arxiv.org/pdf/1611.01779.pdf)\] \[[code](https://github.com/intel-isl/DirectFuturePrediction)\] <br/>
+Learning to act by predicting the future \[2017, ICLR, Alexey Dosovitskiy\] \[[paper](https://arxiv.org/pdf/1611.01779.pdf)\] \[[code](https://github.com/intel-isl/DirectFuturePrediction)\] <br/>
 `method: (images --> CNN + measurements --> FC + goal --> FC) --> (expectation --> FC + action --> FC) --> policy (DFP/DQN/A3C/DSR)`<br/>
 `environment: ViZDoom` <br/>
 code: \[[DQN](https://github.com/kuz/DeepMind-Atari-Deep-Q-Learner)\] \[[DSR](https://github.com/Ardavans/DSR)\] \[[A3C](https://github.com/muupan/async-rl)\]
@@ -72,7 +72,7 @@ Transfer deep reinforcement learning in 3d environments: An empirical study \[20
 `method: image --> CNN --> policy (DQN)`<br/>
 `environment: VizDoom`
 
-Neural map: Structured memory for deep reinforcement learning \[2017, arxiv, Emilio Parisotto\] \[[paper](https://arxiv.org/pdf/1702.08360.pdf)\]<br/>
+Neural map: Structured memory for deep reinforcement learning \[2018, ICLR, Emilio Parisotto\] \[[paper](https://arxiv.org/pdf/1702.08360.pdf)\]<br/>
 `method: image --> CNN --> LSIM --> Memory --> policy (A3C)`<br/>
 `environment: 2D maze, VizDoom`
 
