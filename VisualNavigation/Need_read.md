@@ -22,3 +22,5 @@ Transferring Common-Sense Knowledge for Object Detection
 
 Learning cooperative visual dialog agents with deep reinforcement learning
 
+Neural modular control for embodied question answering
+
