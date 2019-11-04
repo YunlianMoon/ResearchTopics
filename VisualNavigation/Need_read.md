@@ -20,3 +20,5 @@ OK-VQA: A Visual Question Answering Benchmark Requiring External Knowledge
 
 Transferring Common-Sense Knowledge for Object Detection
 
+Learning cooperative visual dialog agents with deep reinforcement learning
+
