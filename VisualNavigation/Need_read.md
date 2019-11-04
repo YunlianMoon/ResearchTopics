@@ -18,3 +18,5 @@ Video Relationship Reasoning using Gated Spatio-Temporal Energy Graph
 
 OK-VQA: A Visual Question Answering Benchmark Requiring External Knowledge
 
+Transferring Common-Sense Knowledge for Object Detection
+
