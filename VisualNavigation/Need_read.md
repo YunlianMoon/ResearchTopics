@@ -16,3 +16,5 @@ From recognition to cognition: Visual commonsense reasoning
 
 Video Relationship Reasoning using Gated Spatio-Temporal Energy Graph
 
+OK-VQA: A Visual Question Answering Benchmark Requiring External Knowledge
+
