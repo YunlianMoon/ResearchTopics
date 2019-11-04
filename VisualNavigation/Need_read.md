@@ -8,3 +8,5 @@ A behavioral approach to visual navigation with graph localization networks \[20
 
 Learning to Learn How to Learn: Self-Adaptive Visual Navigation Using Meta-Learning \[2019, CVPR, Mitchell Wortsman\] \[[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wortsman_Learning_to_Learn_How_to_Learn_Self-Adaptive_Visual_Navigation_Using_CVPR_2019_paper.pdf)\]
 
+Conditional Driving from Natural Language Instructions
+
