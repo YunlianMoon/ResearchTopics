@@ -36,5 +36,7 @@ RL: Fast Reinforcement Learning via Slow Reinforcement Learning
 
 Playing doom with slam-augmented deep reinforcement learning
 
+Unifying Map and Landmark Based Representations for Visual Navigation
+
 
 
