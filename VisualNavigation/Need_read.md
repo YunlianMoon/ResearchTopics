@@ -32,3 +32,7 @@ Learning transferable policies for monocular reactive mav control
 
 Plato: Policy learning using adaptive trajectory optimization
 
+Playing doom with slam-augmented deep reinforcement learning
+
+
+
