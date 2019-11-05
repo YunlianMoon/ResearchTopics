@@ -30,3 +30,5 @@ Deepdriving: Learning affordance for direct perception in autonomous driving
 
 Learning transferable policies for monocular reactive mav control
 
+Plato: Policy learning using adaptive trajectory optimization
+
