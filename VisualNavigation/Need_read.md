@@ -24,5 +24,7 @@ Learning cooperative visual dialog agents with deep reinforcement learning
 
 Neural modular control for embodied question answering
 
-Exploratory gradient boosting for reinforcement learning in complex domains.
+Exploratory gradient boosting for reinforcement learning in complex domains
+
+Deepdriving: Learning affordance for direct perception in autonomous driving
 
