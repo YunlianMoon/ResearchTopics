@@ -3,6 +3,13 @@
 ### Table of Contents
 - Survey
 - Paper
+  - [observation only]()
+  - [target driven]()
+  - [semantic]()
+  - [phrase]()
+  - [instruction]()
+  - [question]()
+- Paper
   - [image](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/image.md)
     - <a href="#same">seen envirionment/task</a>
     - <a href="#unseen">generalization</a>
