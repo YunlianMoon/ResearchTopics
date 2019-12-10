@@ -10,7 +10,7 @@ Semantic represents the objects, layouts and any other semantic information desc
 ### paper
 
 Visual semantic planning using deep successor representations \[2017, ICCV, Yuke Zhu\] \[[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Visual_Semantic_Planning_ICCV_2017_paper.pdf)\]<br/>
-`method:` (state(one-hot) + (image --> CNN) + (action(one-hot) --> FC) + (action augment(one-hot) --> FC)) --> FC --> (state-action feature + successor feature + reward predictor) --> (reward + Q value)<br/>
+`method:` (internal state(one-hot) --> FC + observation --> CNN + (action(one-hot) --> FC + action augment(one-hot) --> FC) --> FC) --> (state-action feature + successor feature + reward predictor) --> (reward + Q value)<br/>
 `environment:` AI2-THOR
 
 Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\]<br/>
