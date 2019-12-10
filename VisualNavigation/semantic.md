@@ -13,10 +13,6 @@ Visual semantic planning using deep successor representations \[2017, ICCV, Yuke
 `method:` (state(one-hot) + (image --> CNN) + (action(one-hot) --> FC) + (action augment(one-hot) --> FC)) --> FC --> (state-action feature + successor feature + reward predictor) --> (reward + Q value)<br/>
 `environment:` AI2-THOR
 
-Visual semantic navigation using scene priors \[2018, arxiv, Wei Yang\] \[[paper](https://arxiv.org/pdf/1810.06543.pdf)\] \[[video](incorporating)\]<br/>
-`method:` ((images --> ResNet50 --> FC) + (goal --> word embedding --> FC) + (graph knowledge --> GCN --> FC)) --> FC --> policy (A3C)<br/>
-`environment:` AI2-THOR
-
 Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\]<br/>
 `method:` ((image --> CNN) + (textual instruction) --> LSTM) --> FC --> LSTM --> policy (A3C)<br/>
 `environment:` DeepMind Lab
@@ -38,3 +34,18 @@ Building generalizable agents with a realistic and rich 3d environment \[2018, a
 `description:` unseen environments<br/>
 `method:` (((depth image + semantic segmentation + image) --> CNN) + (concept --> embedding)) --> NN --> LSTM --> policy (A3C/DDPG)<br/>
 `environment:` House3D
+
+Visual semantic navigation using scene priors \[2019, ICLR, Wei Yang\] \[[paper](https://arxiv.org/pdf/1810.06543.pdf)\] \[[video](https://www.youtube.com/watch?v=otKjuO805dE&feature=youtu.be)\]<br/>
+`method:` ((images --> ResNet50 --> FC) + (goal --> word embedding --> FC) + (graph knowledge --> GCN --> FC)) --> FC --> policy (A3C)<br/>
+`environment:` AI2-THOR
+
+Learning to Learn How to Learn: Self-Adaptive Visual Navigation Using Meta-Learning \[2019, CVPR, Mitchell Wortsman\] \[[code](https://github.com/allenai/savn)\]<br/>
+`method:`<br/>
+`environment:` AI2-THOR
+
+
+
+
+
+
+
