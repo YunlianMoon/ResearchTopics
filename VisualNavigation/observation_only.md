@@ -7,8 +7,8 @@
   - <a href="#unseen">generalization</a>
   
 ### Task
-Visual navigation only based on first person of view image.
-  
+Visual navigation only based on first person of view image. It integrates perception and interaction, where an agent actively interfaces with the environment to learn policies that map pixels to actions.
+
 ### Paper
 
 #### <a name="same">same environment/task</a>
