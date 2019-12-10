@@ -60,10 +60,6 @@ Learning to act by predicting the future \[2017, ICLR, Alexey Dosovitskiy\] \[[p
 `environment: ViZDoom` <br/>
 code: \[[DQN](https://github.com/kuz/DeepMind-Atari-Deep-Q-Learner)\] \[[DSR](https://github.com/Ardavans/DSR)\] \[[A3C](https://github.com/muupan/async-rl)\]
 
-Target-driven visual navigation in indoor scenes using deep reinforcement learning \[2017, ICRA, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1609.05143.pdf,)\] \[[code](https://github.com/yushu-liu/icra2017-visual-navigation)\]<br/>
-`method: (image + target image) --> ResNet50 --> generic siamese layers --> scene-specific layers --> policy (A3C)`<br/>
-`environment: AI2-THOR`
-
 Transfer deep reinforcement learning in 3d environments: An empirical study \[2016, NIPS, Devendra Singh Chaplot\] \[[paper](http://www.cs.cmu.edu/~rsalakhu/papers/DeepRL_Transfer.pdf)\]<br/>
 `method: image --> CNN --> policy (DQN)`<br/>
 `environment: VizDoom`
