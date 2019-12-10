@@ -3,13 +3,12 @@
 ### Table of Contents
 - Survey
 - Paper
-  - [map]()
-  - [observation only]()
-  - [target driven]()
-  - [semantic]()
-  - [phrase]()
-  - [instruction]()
-  - [question]()
+  - [map](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/map.md)
+  - [observation only](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/observation_only.md)
+  - [target driven](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/target_driven.md)
+  - [semantic](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/semantic.md)
+  - [instruction](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/instruction.md)
+  - [question](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/question.md)
 
 ### Survey
 
