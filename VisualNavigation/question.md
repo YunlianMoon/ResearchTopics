@@ -1,6 +1,13 @@
 # question
 
-### paper
+### Table of Contents
+- Task
+- Paper
+
+### Task
+an agent is spawned at a random location in a 3D environment and asked a question. In order to answer, the agent must first intelligently navigate to explore the environment, gather necessary visual information through first-person (egocentric) vision, and then answer the question.
+
+### Paper
 
 Iqa: Visual question answering in interactive environments \[2018, CVPR, Daniel Gordon\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gordon_IQA_Visual_Question_CVPR_2018_paper.pdf)\] \[[code](https://github.com/danielgordon10/thor-iqa-cvpr-2018)\]<br/>
 `description: unseen environments`<br/>
