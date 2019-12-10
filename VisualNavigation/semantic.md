@@ -27,7 +27,7 @@ Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz He
 `method:` ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> (policy (A3C) + autoencoder auxiliary task + language      prediction)<br/>
 `environment:` DeepMind Lab
 
-Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\]<br/>
+Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\] \[[video](https://www.youtube.com/watch?v=9vY8D4wuEV0)\]<br/>
 `method:` ((image --> CNN) + (textual instruction) --> LSTM) --> FC --> LSTM --> policy (A3C)<br/>
 `environment:` DeepMind Lab
 
