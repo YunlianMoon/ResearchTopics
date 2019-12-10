@@ -1,9 +1,13 @@
 # observation only
 
 ### Table of Contents
+- Task
 - Paper
   - <a href="#same">same envirionment/task</a>
   - <a href="#unseen">generalization</a>
+  
+### Task
+Visual navigation only based on first person of view image.
   
 ### Paper
 
@@ -70,7 +74,7 @@ Neural map: Structured memory for deep reinforcement learning \[2018, ICLR, Emil
 
 Deep reinforcement learning with successor features for navigation across similar environments \[2017, IROS, Jingwei Zhang\] \[[paper](https://arxiv.org/pdf/1612.05533.pdf)\] \[[video](https://youtu.be/WcCcdkhgjdY)\]<br/>
 `method: images --> CNN --> FC --> ((FC --> W --> R) + (deCNN --> input construction) + (FC --> successor features) + (FC --> task map))`<br/>
-`environment: maze/real
+`environment`: maze/real
 
 Learning to navigate in cities without a map \[2018, NIPS, Piotr Mirowski\] \[[paper](https://papers.nips.cc/paper/7509-learning-to-navigate-in-cities-without-a-map.pdf)\] \[[code](https://github.com/deepmind/streetlearn)\]<br/>
 `method: ((image --> CNN) + (goal description, reward, action)) --> LSTM --> (policy (A3C) + auxiliary losses)`<br/>
