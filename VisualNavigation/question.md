@@ -1,9 +1,9 @@
 # question
 
 ### Table of Contents
-- Task
-- Webcite
-- Paper
+- <a href="#task">Task</a>
+- <a href="#webcite">Webcite</a>
+- <a href="#paper">Paper</a>
 
 ### Task
 An agent is spawned at a random location in a 3D environment and asked a question. In order to answer, the agent must first intelligently navigate to explore the environment, gather necessary visual information through first-person (egocentric) vision, and then answer the question.
