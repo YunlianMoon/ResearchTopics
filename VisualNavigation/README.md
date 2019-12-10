@@ -3,6 +3,7 @@
 ### Table of Contents
 - Survey
 - Paper
+  - [map]()
   - [observation only]()
   - [target driven]()
   - [semantic]()
