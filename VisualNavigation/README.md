@@ -9,16 +9,6 @@
   - [phrase]()
   - [instruction]()
   - [question]()
-- Paper
-  - [image](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/image.md)
-    - <a href="#same">seen envirionment/task</a>
-    - <a href="#unseen">generalization</a>
-  - [vision and language](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/vision_and_language.md)
-    - <a href="#PG">point goal</a>
-    - <a href="#OB">object goal</a>
-    - <a href="#AG">area goal</a>
-    - <a href="#instrction">instruction</a>
-    - <a href="#question">question</a>
 
 ### Survey
 
