@@ -5,14 +5,14 @@
 - <a href="#webcite">Webcite</a>
 - <a href="#paper">Paper</a>
 
-### Task
+### <a name="task">Task</a>
 An agent is spawned at a random location in a 3D environment and asked a question. In order to answer, the agent must first intelligently navigate to explore the environment, gather necessary visual information through first-person (egocentric) vision, and then answer the question.
 
-### Webcite
+### <a name="webcite">Webcite</a>
 
 [Embodied Question Answering](https://embodiedqa.org/)
 
-### Paper
+### <a name="paper">Paper</a>
 
 Iqa: Visual question answering in interactive environments \[2018, CVPR, Daniel Gordon\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gordon_IQA_Visual_Question_CVPR_2018_paper.pdf)\] \[[code](https://github.com/danielgordon10/thor-iqa-cvpr-2018)\] \[[video](https://www.youtube.com/watch?v=pXd3C-1jr98&feature=youtu.be)\]<br/>
 `description:` unseen environments<br/>
