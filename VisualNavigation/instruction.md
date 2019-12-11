@@ -17,7 +17,7 @@ Zero-shot task generalization with multi-task deep reinforcement learning \[2017
 `method:` (((instructions + image) --> meta controller (CNN + LSTM)) + image) --> paremetrirized sill (CNN + LSTM) --> policy (A2C) + termination prediction<br/>
 `environment:` Minecraft
 
-Gated-attention architectures for task-oriented language grounding \[2018, AAAI, Devendra Singh Chaplot\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17425/16578)\] \[[code](https://github.com/devendrachaplot/DeepRL-Grounding)\] \[[video](https://github.com/devendrachaplot/DeepRL-Grounding)\]<br/>
+Gated-attention architectures for task-oriented language grounding \[2018, AAAI, Devendra Singh Chaplot\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17425/16578)\] \[[code](https://github.com/devendrachaplot/DeepRL-Grounding)\] \[[video](https://github.com/devendrachaplot/DeepRL-Grounding)\] \[[webcite](https://sites.google.com/view/gated-attention/home)\]<br/>
 `description:` unseen instructions/maps<br/>
 `method:` ((image --> CNN) + (text instruction --> GRU --> FC --> attention vector)) --> FC --> LSTM --> (policy (A3C) + imitation learning (behavioral cloning/DAgger))<br/>
 `environment:` ViZDoom
