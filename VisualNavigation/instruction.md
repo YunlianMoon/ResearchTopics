@@ -30,7 +30,7 @@ Gated-attention architectures for task-oriented language grounding \[2018, AAAI,
 `method:` ((image --> CNN) + (text instruction --> GRU --> FC --> attention vector)) --> FC --> LSTM --> (policy (A3C) + imitation learning (behavioral cloning/DAgger))<br/>
 `environment:` ViZDoom
 
-Building generalizable agents with a realistic and rich 3d environment \[2018, ICLR, Yi Wu\] \[[paper](https://arxiv.org/pdf/1801.02209.pdf?utm_content=buffer53a22&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)\]<br/>
+Building generalizable agents with a realistic and rich 3d environment \[2018, ICLR, Yi Wu\] \[[paper](https://arxiv.org/pdf/1801.02209.pdf?utm_content=buffer53a22&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)\] \[[dataset](https://github.com/facebookresearch/House3D)\]<br/>
 `description:` unseen environments<br/>
 `method:` (((depth image + semantic segmentation + image) --> CNN) + (concept --> embedding)) --> NN --> LSTM --> policy (A3C/DDPG)<br/>
 `environment:` House3D
