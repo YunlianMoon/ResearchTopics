@@ -17,11 +17,6 @@ Zero-shot task generalization with multi-task deep reinforcement learning \[2017
 `method:` (((instructions + image) --> meta controller (CNN + LSTM)) + image) --> paremetrirized sill (CNN + LSTM) --> policy (A2C) + termination prediction<br/>
 `environment:` Minecraft
 
-Gated-attention architectures for task-oriented language grounding \[2018, AAAI, Devendra Singh Chaplot\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17425/16578)\] \[[code](https://github.com/devendrachaplot/DeepRL-Grounding)\] \[[video](https://github.com/devendrachaplot/DeepRL-Grounding)\] \[[webcite](https://sites.google.com/view/gated-attention/home)\]<br/>
-`description:` unseen instructions/maps<br/>
-`method:` ((image --> CNN) + (text instruction --> GRU --> FC --> attention vector)) --> FC --> LSTM --> (policy (A3C) + imitation learning (behavioral cloning/DAgger))<br/>
-`environment:` ViZDoom
-
 Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz Hermann\] \[[paper](https://arxiv.org/pdf/1706.06551.pdf)\] \[[code](https://github.com/dai-dao/Grounded-Language-Learning-in-Pytorch)\] \[[video](https://www.youtube.com/watch?v=wJjdu1bPJ04&feature=youtu.be)\]<br/>
 `method:` ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> (policy (A3C) + autoencoder auxiliary task + language      prediction)<br/>
 `environment:` DeepMind Lab
@@ -29,6 +24,11 @@ Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz He
 Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[paper](https://arxiv.org/pdf/1710.09867.pdf)\] \[[video](https://www.youtube.com/watch?v=9vY8D4wuEV0)\]<br/>
 `method:` ((image --> CNN) + (textual instruction) --> LSTM) --> FC --> LSTM --> policy (A3C)<br/>
 `environment:` DeepMind Lab
+
+Gated-attention architectures for task-oriented language grounding \[2018, AAAI, Devendra Singh Chaplot\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17425/16578)\] \[[code](https://github.com/devendrachaplot/DeepRL-Grounding)\] \[[video](https://github.com/devendrachaplot/DeepRL-Grounding)\] \[[webcite](https://sites.google.com/view/gated-attention/home)\]<br/>
+`description:` unseen instructions/maps<br/>
+`method:` ((image --> CNN) + (text instruction --> GRU --> FC --> attention vector)) --> FC --> LSTM --> (policy (A3C) + imitation learning (behavioral cloning/DAgger))<br/>
+`environment:` ViZDoom
 
 Building generalizable agents with a realistic and rich 3d environment \[2018, ICLR, Yi Wu\] \[[paper](https://arxiv.org/pdf/1801.02209.pdf?utm_content=buffer53a22&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)\]<br/>
 `description:` unseen environments<br/>
