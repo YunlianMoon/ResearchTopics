@@ -22,7 +22,7 @@ Gated-attention architectures for task-oriented language grounding \[2018, AAAI,
 `method:` ((image --> CNN) + (text instruction --> GRU --> FC --> attention vector)) --> FC --> LSTM --> (policy (A3C) + imitation learning (behavioral cloning/DAgger))<br/>
 `environment:` ViZDoom
 
-Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz Hermann\] \[[paper](https://arxiv.org/pdf/1706.06551.pdf)\] \[[code](https://github.com/dai-dao/Grounded-Language-Learning-in-Pytorch)\]<br/>
+Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz Hermann\] \[[paper](https://arxiv.org/pdf/1706.06551.pdf)\] \[[code](https://github.com/dai-dao/Grounded-Language-Learning-in-Pytorch)\] \[[video](https://www.youtube.com/watch?v=wJjdu1bPJ04&feature=youtu.be)\]<br/>
 `method:` ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> (policy (A3C) + autoencoder auxiliary task + language      prediction)<br/>
 `environment:` DeepMind Lab
 
