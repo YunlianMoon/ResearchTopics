@@ -30,7 +30,7 @@ Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[p
 `method:` ((image --> CNN) + (textual instruction) --> LSTM) --> FC --> LSTM --> policy (A3C)<br/>
 `environment:` DeepMind Lab
 
-Building generalizable agents with a realistic and rich 3d environment \[2018, arxiv, Yi Wu\] \[[paper](https://arxiv.org/pdf/1801.02209.pdf?utm_content=buffer53a22&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)\]<br/>
+Building generalizable agents with a realistic and rich 3d environment \[2018, ICLR, Yi Wu\] \[[paper](https://arxiv.org/pdf/1801.02209.pdf?utm_content=buffer53a22&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)\]<br/>
 `description:` unseen environments<br/>
 `method:` (((depth image + semantic segmentation + image) --> CNN) + (concept --> embedding)) --> NN --> LSTM --> policy (A3C/DDPG)<br/>
 `environment:` House3D
