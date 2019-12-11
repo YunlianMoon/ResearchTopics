@@ -3,11 +3,17 @@
 ### Table of Contents
 - Task
 - Paper
+  - <a href="#short">short instruction</a>
+  - <a href="#long">long instruction</a>
 
 ### Task
 An agent directly maps raw visual observations and text input to actions for instruction execution.
 
 ### Paper
+
+#### <a name="short">short instruction</a>
+
+#### <a name="long">long instruction</a>
 
 Mapping instructions and visual observations to actions with reinforcement learning \[2017, arxiv, Dipendra Misra\] \[[paper](https://arxiv.org/pdf/1704.08795.pdf)\] \[[code](https://github.com/lil-lab/blocks)\]<br/>
 `method:` ((image --> CNN) + (instruction --> LSTM) + (action --> NN)) --> NN --> policy (policy gradient)<br/>
