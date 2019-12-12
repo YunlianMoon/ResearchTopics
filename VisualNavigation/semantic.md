@@ -7,6 +7,8 @@
 ### Task
 Semantic represents the objects, layouts and any other semantic information describing the environment.
 
+Given a target object class, e.g. microwave, the task is to navigate to an instance of an object from this class using only visual observations.
+
 ### paper
 
 Visual semantic planning using deep successor representations \[2017, ICCV, Yuke Zhu\] \[[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Visual_Semantic_Planning_ICCV_2017_paper.pdf)\] \[[video](https://www.youtube.com/watch?v=_2pYVw6ATKo)\]<br/>
