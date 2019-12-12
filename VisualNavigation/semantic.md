@@ -7,7 +7,7 @@
 ### Task
 Semantic represents the objects, layouts and any other semantic information describing the environment.
 
-Given a target object class, e.g. microwave, the task is to navigate to an instance of an object from this class using only visual observations.
+Given a target object class, *e.g. microwave*, the task is to navigate to an instance of an object from this class using only visual observations.
 
 ### paper
 
