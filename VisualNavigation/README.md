@@ -1,6 +1,7 @@
 # Visual Navigation using DRL
 
 ### Table of Contents
+- Task
 - Survey
 - Paper
   - [map](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/map.md)
@@ -9,6 +10,12 @@
   - [semantic](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/semantic.md)
   - [instruction](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/instruction.md)
   - [question](https://github.com/YunlianMoon/ResearchTopics/blob/master/VisualNavigation/question.md)
+  
+### Task
+
+The goal of visual navigation is to move towards certain objects or regions of an environment.
+
+A key challenge in navigation is generalizing to a scene that has not been observed during training, as the structure of the scene and appearance of objects are unfamiliar.
 
 ### Survey
 
