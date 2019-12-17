@@ -14,7 +14,7 @@ An agent directly maps raw visual observations and text input to actions for ins
 #### <a name="short">short instruction</a>
 
 Zero-shot task generalization with multi-task deep reinforcement learning \[2017, ICML, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1706.05064.pdf)\] \[[video](https://sites.google.com/a/umich.edu/junhyuk-oh/task-generalization)\] \[[webcite](https://sites.google.com/a/umich.edu/junhyuk-oh/task-generalization)\]<br/>
-`method:` (((instructions + image) --> meta controller (CNN + LSTM)) + image) --> paremetrirized sill (CNN + LSTM) --> policy (A2C) + termination prediction<br/>
+`method:` (((instructions + image) --> meta controller (CNN + LSTM)) + image) --> paremetrirized skill (CNN + LSTM) --> policy (A2C) + termination prediction<br/>
 `environment:` Minecraft
 
 Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz Hermann\] \[[paper](https://arxiv.org/pdf/1706.06551.pdf)\] \[[code](https://github.com/dai-dao/Grounded-Language-Learning-in-Pytorch)\] \[[video](https://www.youtube.com/watch?v=wJjdu1bPJ04&feature=youtu.be)\]<br/>
