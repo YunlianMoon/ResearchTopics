@@ -19,6 +19,7 @@ The goal of visual navigation is to move towards certain objects or regions of a
 A key challenge in navigation is generalizing to a scene that has not been observed during training, as the structure of the scene and appearance of objects are unfamiliar.
 
 ### Challenge
+
 Imagine asking a home robot to go some place, in order to be successful, such an agent would need a range of artificial intelligence (AI) skills – visual perception (to recognize objects, scenes, obstacles), language understanding (to translate questions and instructions into actions), and navigation of potentially novel environments (to move and find things in a changing world). 
 
 ### Survey
