@@ -28,7 +28,7 @@ Understanding grounded language learning agents \[2017, arxiv, Felix Hill\] \[[p
 
 Gated-attention architectures for task-oriented language grounding \[2018, AAAI, Devendra Singh Chaplot\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17425/16578)\] \[[code](https://github.com/devendrachaplot/DeepRL-Grounding)\] \[[video](https://github.com/devendrachaplot/DeepRL-Grounding)\] \[[webcite](https://sites.google.com/view/gated-attention/home)\]<br/>
 `description:` unseen instructions/maps<br/>
-`idea:`  multimodal representations, from concatenation to Gated-Attention<br/>
+`idea:`  multimodal representations, from concatenation to gated-attention<br/>
 `gated-attention:` attend to specific attributes of the objects based on the instruction<br/>
 `method:` ((image --> CNN) + (text instruction --> GRU --> FC --> attention vector)) --> FC --> LSTM --> (policy (A3C) + imitation learning (behavioral cloning/DAgger))<br/>
 `environment:` ViZDoom
