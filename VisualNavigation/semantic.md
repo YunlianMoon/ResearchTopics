@@ -23,7 +23,7 @@ Visual semantic navigation using scene priors \[2019, ICLR, Wei Yang\] \[[paper]
 Learning to Learn How to Learn: Self-Adaptive Visual Navigation Using Meta-Learning \[2019, CVPR, Mitchell Wortsman\] \[[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wortsman_Learning_to_Learn_How_to_Learn_Self-Adaptive_Visual_Navigation_Using_CVPR_2019_paper.pdf)\] \[[code](https://github.com/allenai/savn)\] \[[video](https://www.youtube.com/watch?v=-Ba6ZRMcxEE&feature=youtu.be)\]<br/>
 `idea:` learn a good initialization parameters of neuro network architecture<br/>
 `description:` navigation loss and self-supervised interaction loss<br/>
-`method:` (image --> ResNet18 + word --> glove) LSTM --> policy (A3C)<br/>
+`method:` (image --> ResNet18 + word --> glove) --> LSTM --> policy (A3C)<br/>
 `environment:` AI2-THOR
 
 
