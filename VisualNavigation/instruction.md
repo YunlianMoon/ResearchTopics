@@ -18,7 +18,7 @@ Zero-shot task generalization with multi-task deep reinforcement learning \[2017
 `environment:` Minecraft
 
 Grounded language learning in a simulated 3d world \[2017, arxiv, Karl Moritz Hermann\] \[[paper](https://arxiv.org/pdf/1706.06551.pdf)\] \[[code](https://github.com/dai-dao/Grounded-Language-Learning-in-Pytorch)\] \[[video](https://www.youtube.com/watch?v=wJjdu1bPJ04&feature=youtu.be)\]<br/>
-`description:` next observation prediction, word prediction, reward prediction, value replay<br/>
+`auxiliary tasks:` next observation prediction, language prediction (agent predicts a word to discribe what it sees), reward prediction, value replay<br/>
 `method:` ((image --> CNN) + (textual instruction --> LSTM)) --> NN --> LSTM --> (policy (A3C) + autoencoder auxiliary task + language      prediction)<br/>
 `environment:` DeepMind Lab
 
