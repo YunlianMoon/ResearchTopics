@@ -17,7 +17,7 @@ Visual semantic planning using deep successor representations \[2017, ICCV, Yuke
 `environment:` AI2-THOR
 
 Visual semantic navigation using scene priors \[2019, ICLR, Wei Yang\] \[[paper](https://arxiv.org/pdf/1810.06543.pdf)\] \[[video](https://www.youtube.com/watch?v=otKjuO805dE&feature=youtu.be)\]<br/>
-`method:` ((images --> ResNet50 --> FC) + (goal --> word embedding --> FC) + (graph knowledge --> GCN --> FC)) --> FC --> policy (A3C)<br/>
+`method:` ((images --> ResNet50 --> FC) + (goal --> word embedding --> FC) + (knowledge graph--> GCN --> FC)) --> FC --> policy (A3C)<br/>
 `environment:` AI2-THOR
 
 Learning to Learn How to Learn: Self-Adaptive Visual Navigation Using Meta-Learning \[2019, CVPR, Mitchell Wortsman\] \[[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wortsman_Learning_to_Learn_How_to_Learn_Self-Adaptive_Visual_Navigation_Using_CVPR_2019_paper.pdf)\] \[[code](https://github.com/allenai/savn)\] \[[video](https://www.youtube.com/watch?v=-Ba6ZRMcxEE&feature=youtu.be)\]<br/>
