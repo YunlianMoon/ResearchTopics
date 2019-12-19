@@ -25,3 +25,15 @@ Embodied question answering \[2018, CVPR, Abhishek Das\] \[[paper](http://openac
 `idea:` hierarchical model<br/>
 `method:` (image --> CNN + question --> LSTM) --> NN or LSTM --> policy (REINFORCE)<br/>
 `environment:` House3D
+
+Embodied Question Answering in Photorealistic Environments with Point Cloud Perception \[2019, CVPR, Erik Wijmans\] \[[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wijmans_Embodied_Question_Answering_in_Photorealistic_Environments_With_Point_Cloud_Perception_CVPR_2019_paper.pdf)\]<br/>
+`observation representations:` RGB, RGB-D, semantic segmentation, color autoencoding, structure autoencoding, depth prediction<br/>
+`idea:` Inflection Weighting, weight predictions at time steps more heavily if the ground truth action differs from the previous one<br/>
+`method:` (image --> ResNet50 + question --> LSTM) --> imitation learning
+
+
+
+
+
+
+
