@@ -16,7 +16,7 @@ A deep hierarchical approach to lifelong learning in minecraft \[2017, AAAI, Che
 Deepmind lab \[2016, arxiv, Charles Beattie\] \[[paper](https://arxiv.org/pdf/1612.03801.pdf)\]<br/>
 `description: DeepMind Lab`
 
-Vizdoom: A doom-based ai research platform for visual reinforcement learning \[2016, arxiv, Michał Kempka\] \[[paper](https://arxiv.org/pdf/1605.02097.pdf)\]<br/>
+Vizdoom: A doom-based ai research platform for visual reinforcement learning \[2016, CIG, Michał Kempka\] \[[paper](https://arxiv.org/pdf/1605.02097.pdf)\]<br/>
 `description: ViZDoom`
 
 ### 3D indoor
@@ -30,8 +30,14 @@ Matterport3d: Learning from rgb-d data in indoor environments \[2017, arxiv, Ang
 Joint 2d-3d-semantic data for indoor scene understanding \[2017, arxiv, Iro Armeni\] \[[paper](https://arxiv.org/pdf/1702.01105.pdf)\]<br/>
 `description: Stanford 2D-3D-S`
 
-MINOS: Multimodal indoor simulator for navigation in complex environments \[2017, arxiv, Manolis Savva\] \[[paper](https://arxiv.org/pdf/1712.03931.pdf)\]
+MINOS: Multimodal indoor simulator for navigation in complex environments \[2017, arxiv, Manolis Savva\] \[[paper](https://arxiv.org/pdf/1712.03931.pdf)\]<br/>
 `description: MINOS`
+
+HoME: A household multimodal environment \[2017, arxiv, Simon Brodeur\] \[[paper](https://arxiv.org/pdf/1711.11017.pdf)\]<br/>
+`description: HoME`
+
+Gibson env: Real-world perception for embodied agents \[2018, CVPR, Fei Xia\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xia_Gibson_Env_Real-World_CVPR_2018_paper.pdf)\]<br/>
+`description: Gibson`
 
 ### Transform
 
