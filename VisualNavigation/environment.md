@@ -7,6 +7,9 @@ A deep compositional framework for human-like language acquisition in virtual en
 
 ### 3D game-like
 
+Torchcraft: a library for machine learning research on real-time strategy games \[2016, arxiv, Gabriel Synnaeve\] \[[paper](https://arxiv.org/pdf/1611.00625.pdf)\]<br/>
+`description: Torchcraft`
+
 `description: Labyrinth`
 
 Control of memory, active perception, and action in minecraft \[2016, arxiv, Junhyuk Oh\] \[[paper](https://arxiv.org/pdf/1605.09128.pdf)\]<br/>
