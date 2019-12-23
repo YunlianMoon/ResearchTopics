@@ -11,7 +11,7 @@ Given a target object class, *e.g. microwave*, the task is to navigate to an ins
 
 ### paper
 
-Visual semantic planning using deep successor representations \[2017, ICCV, Yuke Zhu\] \[[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Visual_Semantic_Planning_ICCV_2017_paper.pdf)\] \[[video](https://www.youtube.com/watch?v=_2pYVw6ATKo)\]<br/>
+Visual semantic planning using deep successor representations \[2017, ICCV, Yuke Zhu\] \[[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Visual_Semantic_Planning_ICCV_2017_paper.pdf)\] \[[video](https://www.youtube.com/watch?v=_2pYVw6ATKo)\] \[[project](http://ai.stanford.edu/~yukez/iccv2017.html)\]<br/>
 `algorithm:` IL + RL<br/>
 `method:` (internal state(one-hot) --> FC + observation --> CNN + (action(one-hot) --> FC + action augment(one-hot) --> FC) --> FC) --> (state-action feature + successor feature + reward predictor) --> (reward + Q value)<br/>
 `environment:` AI2-THOR
