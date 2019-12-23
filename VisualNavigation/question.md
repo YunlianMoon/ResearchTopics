@@ -26,6 +26,11 @@ Embodied question answering \[2018, CVPR, Abhishek Das\] \[[paper](http://openac
 `method:` (image --> CNN + question --> LSTM) --> NN or LSTM --> policy (REINFORCE)<br/>
 `environment:` House3D
 
+Neural modular control for embodied question answering \[2018, arxiv, Abhishek Das\] \[[paper](https://arxiv.org/pdf/1810.11181.pdf)\]<br/>
+`method:` (question --> LSTM + image --> CNN + 1-hot subgoal) --> GRU --> subgoal<br/>
+          (iamge --> CNN + 1-hot action + argument embedding) --> GRU --> action (imitation learning + RL)<br/>
+`environment:` House3D
+
 Embodied Question Answering in Photorealistic Environments with Point Cloud Perception \[2019, CVPR, Erik Wijmans\] \[[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wijmans_Embodied_Question_Answering_in_Photorealistic_Environments_With_Point_Cloud_Perception_CVPR_2019_paper.pdf)\]<br/>
 `observation representations:` RGB, RGB-D, semantic segmentation, color autoencoding, structure autoencoding, depth prediction<br/>
 `idea:` Inflection Weighting, weight predictions at time steps more heavily if the ground truth action differs from the previous one<br/>
