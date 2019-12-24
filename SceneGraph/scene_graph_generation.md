@@ -6,7 +6,9 @@ Knowledge-Embedded Routing Network for Scene Graph Generation \[2019, CVPR, Tian
 
 Learning to compose dynamic tree structures for visual contexts \[2019, CVPR, Kaihua Tang\] \[[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tang_Learning_to_Compose_Dynamic_Tree_Structures_for_Visual_Contexts_CVPR_2019_paper.pdf)\] \[[code](https://github.com/KaihuaTang/VCTree-Scene-Graph-Generation)\]
 
-Neural motifs: Scene graph parsing with global context \[2018, CVPR, Rowan Zellers\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zellers_Neural_Motifs_Scene_CVPR_2018_paper.pdf)\] \[[code](https://github.com/rowanz/neural-motifs)\]
+Neural motifs: Scene graph parsing with global context \[2018, CVPR, Rowan Zellers\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zellers_Neural_Motifs_Scene_CVPR_2018_paper.pdf)\] \[[code](https://github.com/rowanz/neural-motifs)\]<br/>
+`method:` image --> fast r-cnn --> bounding boxes --> VGG --> bidirectional LSTMs --> LSTM --> bidirectional LSTMs --> relation<br/>
+`dataset:` Visual Genome
 
 Graph r-cnn for scene graph generation \[2018, ECCV, Jianwei Yang\] \[[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Jianwei_Yang_Graph_R-CNN_for_ECCV_2018_paper.pdf)\] \[[code](https://github.com/jwyang/graph-rcnn.pytorch)\]
 
