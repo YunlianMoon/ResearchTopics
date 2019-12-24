@@ -1,4 +1,4 @@
-# Scene Graph Generalization
+# Scene Graph Generation
 
 ### Papers
 
