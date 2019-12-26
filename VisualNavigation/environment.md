@@ -24,7 +24,7 @@ Vizdoom: A doom-based ai research platform for visual reinforcement learning \[2
 
 ### 3D indoor
 
-Ai2-thor: An interactive 3d environment for visual ai \[2017, arxiv, Eric Kolve\] \[[paper](https://arxiv.org/pdf/1712.05474.pdf)\]<br/>
+Ai2-thor: An interactive 3d environment for visual ai \[2017, arxiv, Eric Kolve\] \[[paper](https://arxiv.org/pdf/1712.05474.pdf)\] \[[webcite](http://ai2thor.allenai.org/)\]<br/>
 `description: AI2-THOR`
 
 Matterport3d: Learning from rgb-d data in indoor environments \[2017, arxiv, Angel Chang\] \[[paper](https://arxiv.org/pdf/1709.06158.pdf)\]<br/>
