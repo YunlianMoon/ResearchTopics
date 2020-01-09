@@ -44,6 +44,9 @@ Gibson env: Real-world perception for embodied agents \[2018, CVPR, Fei Xia\] \[
 
 ### Transform
 
+Semantic scene completion from a single depth image \[2017, CVPR, Shuran Song\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Song_Semantic_Scene_Completion_CVPR_2017_paper.pdf)\]<br/>
+`description: SUNCG`
+
 Building generalizable agents with a realistic and rich 3d environment \[2018, ICLR, Yi Wu\] \[[paper](https://arxiv.org/pdf/1801.02209.pdf?utm_content=buffer53a22&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)\] \[[github](https://github.com/facebookresearch/House3D)\]<br/>
 `description: House3D`<br/>
 `from: SUNCG`
