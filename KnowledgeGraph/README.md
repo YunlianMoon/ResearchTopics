@@ -6,7 +6,8 @@ A new model for learning in graph domains \[2005, IJCNN, Marco Gori\] \[[paper](
 
 A comparison between recursive neural networks and graph neural networks \[2006, IJCNN, Vincenzo Di Massa\] \[[paper](https://www.researchgate.net/profile/Franco_Scarselli/publication/221533529_A_Comparison_between_Recursive_Neural_Networks_and_Graph_Neural_Networks/links/0c9605188cd4e8f75a000000.pdf)\]
 
-The graph neural network model \[2008, TNN, Franco Scarselli\] \[[paper](https://repository.hkbu.edu.hk/cgi/viewcontent.cgi?article=1000&context=vprd_ja)\]
+The graph neural network model \[2008, TNN, Franco Scarselli\] \[[paper](https://repository.hkbu.edu.hk/cgi/viewcontent.cgi?article=1000&context=vprd_ja)\]<br/>
+`description: GNN`
 
 Neural network for graphs: A contextual constructive approach \[2009, TNN, Alessio Micheli\] \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4773279)\]
 
