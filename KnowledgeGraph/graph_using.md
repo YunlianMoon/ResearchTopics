@@ -21,6 +21,19 @@ Image retrieval using scene graphs \[2015, CVPR, Justin Johnson\] \[[paper](http
 
 Building a large-scale multimodal knowledge base system for answering visual queries \[2015, arxiv, Yuke Zhu\] \[[paper](https://arxiv.org/pdf/1507.05670.pdf)\]
 
+#### visual relationship detection
+
+Visual relationship detection with language priors \[2016, ECCV, Cewu Lu\] \[[paper](https://www-cs.stanford.edu/people/ranjaykrishna/vrd/vrd.pdf)\]
+
+Phrase localization and visual relationship detection with comprehensive image-language cues \[2017, CVPR, Bryan A. Plummer\] \[[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Plummer_Phrase_Localization_and_ICCV_2017_paper.pdf)\]
+
+Visual translation embedding network for visual relation detection \[2017, CVPR, Hanwang Zhang\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Visual_Translation_Embedding_CVPR_2017_paper.pdf)\]
+
+
+
+
+
+
 
 
 
