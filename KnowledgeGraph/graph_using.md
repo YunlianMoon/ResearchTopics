@@ -29,6 +29,10 @@ Phrase localization and visual relationship detection with comprehensive image-l
 
 Visual translation embedding network for visual relation detection \[2017, CVPR, Hanwang Zhang\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Visual_Translation_Embedding_CVPR_2017_paper.pdf)\]
 
+#### image captioning
+
+Generating multi-sentence lingual descriptions of indoor scenes \[2015, BMVC, Dahua Lin\] \[[paper](https://www.researchgate.net/profile/Sanja_Fidler/publication/273067747_Generating_Multi-Sentence_Lingual_Descriptions_of_Indoor_Scenes/links/555db41008ae6f4dcc8c4ec9/Generating-Multi-Sentence-Lingual-Descriptions-of-Indoor-Scenes.pdf)\]
+
 
 
 
