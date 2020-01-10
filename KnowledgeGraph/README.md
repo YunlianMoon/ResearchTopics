@@ -21,7 +21,8 @@ Improved semantic representations from tree-structured long short-term memory ne
 
 Learning convolutional neural networks for graphs \[2016, ICML, Mathias Niepert\] \[[paper](http://proceedings.mlr.press/v48/niepert16.pdf)\]
 
-Gated graph sequence neural networks \[2016, ICLR, Yujia Li\] \[[paper](https://arxiv.org/pdf/1511.05493.pdf)\]
+Gated graph sequence neural networks \[2016, ICLR, Yujia Li\] \[[paper](https://arxiv.org/pdf/1511.05493.pdf)\]<br/>
+`description: GGNN`
 
 Semantic object parsing with graph lstm \[2016, ECCV, Xiaodan Liang\] \[[paper](https://www.researchgate.net/profile/Liang_Lin18/publication/301846823_Semantic_Object_Parsing_with_Graph_LSTM/links/5886b9ddaca272b7b44cd62d/Semantic-Object-Parsing-with-Graph-LSTM.pdf)\]
 
