@@ -13,6 +13,10 @@ Reasoning about object affordances in a knowledge base representation \[2014, EC
 
 Capturing long-tail distributions of object subcategories \[2014, CVPR, Xiangxin Zhu\] \[[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Zhu_Capturing_Long-tail_Distributions_2014_CVPR_paper.pdf)\]
 
+#### recognition
+
+From red wine to red tomato: Composition with context \[2017, CVPR, Ishan Misra\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Misra_From_Red_Wine_CVPR_2017_paper.pdf)\]
+
 #### image retrieval
 
 Image retrieval using scene graphs \[2015, CVPR, Justin Johnson\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2015/papers/Johnson_Image_Retrieval_Using_2015_CVPR_paper.pdf)\]
