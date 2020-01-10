@@ -56,13 +56,19 @@ Metric learning for large scale image classification: Generalizing to new classe
 
 Neil: Extracting visual knowledge from web data \[2013, ICCV, Xinlei Chen\] \[[paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Chen_NEIL_Extracting_Visual_2013_ICCV_paper.pdf)\]
 
+Write a classifier: Zero-shot learning using purely textual descriptions \[2013, ICCV, Mohamed Elhoseiny\] \[[paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Elhoseiny_Write_a_Classifier_2013_ICCV_paper.pdf)\]
+
 Large-scale object classification using label relation graphs \[2014, ECCV, Jia Deng\] \[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.472.7293&rep=rep1&type=pdf)\]
+
+Predicting deep zero-shot convolutional neural networks using textual descriptions \[2015, ICCV, Jimmy Lei Ba\] \[[paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Ba_Predicting_Deep_Zero-Shot_ICCV_2015_paper.pdf)\]
 
 Ask me anything: Free-form visual question answering based on knowledge from external sources \[2016, CVPR, Qi Wu\] \[[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Wu_Ask_Me_Anything_CVPR_2016_paper.pdf)\]
 
 Unsupervised learning on neural network outputs: with application in zero-shot learning \[2016, IJCAI, \] \[[paper](https://www.ijcai.org/Proceedings/16/Papers/485.pdf)\]
 
 The more you know: Using knowledge graphs for image classification \[2017, CVPR, Kenneth Marino\] \[[paper](https://arxiv.org/pdf/1612.04844.pdf)\]
+
+From red wine to red tomato: Composition with context \[2017, CVPR, Ishan Misra\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Misra_From_Red_Wine_CVPR_2017_paper.pdf)\]
 
 Fvqa: Fact-based visual question answering \[2018, TPAMI, Peng Wang\] \[[paper](https://arxiv.org/pdf/1606.05433.pdf)\]
 
